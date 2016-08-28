@@ -11,11 +11,9 @@ Welcome to a new year of Computer Science. This class is based on the Introducti
 | Instructor                                 | Email                                               |
 |:-------------------------------------------|:----------------------------------------------------|
 | Mr. S-K                                    | [bsk@ms223.org](mailto:bsk@ms223.org)               |
-| Mr. Fernandez                              | [afernandez@ms223.org](mailto:afernandez@ms223.org) |
-| Mr. Bhattacharyya <small>(“Mr. B”)</small> | [ab@ms223.org](mailto:ab@ms223.org)                 |
 
 ## Attendance
-This class meets first period, Monday, Tuesday, and Friday. In order to keep up with concepts, content, and skills, students are expected to attend every class and be on time.
+In order to keep up with concepts, content, and skills, students are expected to attend every class and be on time.
 All lessons and materials are available online anytime at [bsk.education](http://bsk.education). It is your responsibility to complete any missing work. I work hard to make sure that is possible.
 
 ## Extra Learning Time
@@ -40,8 +38,6 @@ Students can expect to have frequent open-notebook quizzes. Students who are abs
 
 ## Raffle
 To help encourage your punctuality, TEALS has provided prizes for a weekly raffle. You can get a raffle ticket for getting to class early, and for participation.
-At the end of the year, we will have a grand prize: an Xbox One.
-
 
 ## Grades
 
@@ -85,7 +81,6 @@ This semester will be using Python, a powerful and popular programming language.
 You must have:
 
 * A notebook no larger than a marble notebook. I recommend one smaller (and nicer looking).
-* A flash drive
 * Pen or pencil every day.
 
 If you ever need additional help, I am always here.
