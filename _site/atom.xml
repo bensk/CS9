@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>CS9</title>
+ <link href="http://bsk.education/CS9/atom.xml" rel="self"/>
+ <link href="http://bsk.education/CS9/"/>
+ <updated>2016-08-27T23:32:10-04:00</updated>
+ <id>http://bsk.education/CS9</id>
+ <author>
+   <name>Ben Samuels-Kalow</name>
+   <email>bsk@ms223.org</email>
+ </author>
+
+ 
+ <entry>
+   <title>🎉Hello World</title>
+   <link href="http://bsk.education/CS9/2016/09/08/find-average/"/>
+   <updated>2016-09-08T09:04:00-04:00</updated>
+   <id>http://bsk.education/CS9/2016/09/08/find-average</id>
+   <content type="html">&lt;p&gt;Welcome to the first day of Computer Science.&lt;/p&gt;
+</content>
+ </entry>
+ 
+
+</feed>
