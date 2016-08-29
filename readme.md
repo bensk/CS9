@@ -16,9 +16,9 @@ Welcome to a new year of Computer Science. This class is based on the Introducti
 In order to keep up with concepts, content, and skills, students are expected to attend every class and be on time.
 All lessons and materials are available online anytime at [bsk.education](http://bsk.education). It is your responsibility to complete any missing work. I work hard to make sure that is possible.
 
-## Extra Learning Time
+<!-- ## Extra Learning Time
 I will hold ELT in Room 300 from 2:15-4:30 Wednesday, Thursday, and Friday. I expect that you attend at least one day a week, and it will count as a homework grade. You may choose your day during the first week of the semester. If you miss a day, you can make it up within the week- for example, you normally attend Wednesday but cannot make it, you may come either Thursday or Friday without penalty. Otherwise I require a note or phone call from a parent.
-This class is designed to prepare you for college-level Computer Science, which requires building the habit of working outside of normal class time.
+This class is designed to prepare you for college-level Computer Science, which requires building the habit of working outside of normal class time. -->
 
 
 ## Behavior
