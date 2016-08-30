@@ -208,11 +208,11 @@ a.sidebar-nav-item:focus {
 
 /* Green */
 .theme-base-0b .sidebar {
-  background-color: #90a959;
+  background-color: #00C9B6;
 }
 .theme-base-0b .content a,
 .theme-base-0b .related-posts li a:hover {
-  color: #90a959;
+  color: #00C9B6;
 }
 
 /* Cyan */
@@ -252,11 +252,11 @@ a.sidebar-nav-item:focus {
 }
 
 ::selection {
-  background: #00A6A3; /* WebKit/Blink Browsers */
+  background: #00C9B6; /* WebKit/Blink Browsers */
   color: white;
 
 }
 ::-moz-selection {
-  background: #00A6A3; /* Gecko Browsers */
+  background: #00C9B6; /* Gecko Browsers */
   color: white;
 }
