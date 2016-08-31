@@ -1,6 +1,6 @@
 ---
-layout: page
 title: Syllabus
+layout: page
 ---
 
 # Advanced Computer Science
