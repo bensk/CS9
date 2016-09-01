@@ -5,7 +5,6 @@ layout: page
 
 # Advanced Computer Science
 
-
 Welcome to a new year of Computer Science. This class is based on the Introduction to Computer Science at the University of Berkeley, and is designed to prepare you to take college-level computer science, and expand your opportunities to explore fields in science, technology, engineering, and beyond. This year, we are partnering with TEALS (Technology Education and Literacy in Schools), which will bring engineers into the classroom as instructors, to give you a rigorous and real-world experience.
 
 | Instructor                                 | Email                                               |
