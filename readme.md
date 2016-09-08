@@ -61,7 +61,7 @@ All content you use must be your own work, and link to any sources (for images, 
 
 
 ## Topics
-This semester we will be usingSNAP, a visual, drag-and-drop programming language. It is accessible on the web at http://snap.berkeley.edu/ and Python, a powerful and popular programming language. We will explore key topics in Computer Science including:
+This semester we will be usingSNAP, a visual, drag-and-drop programming language. It is accessible on the web at http://snap.berkeley.edu/ and Python, a powerful and popular programming language. We will explore big ideas in Computer Science including:
 
 * Algorithms
 * Loops
@@ -71,6 +71,11 @@ This semester we will be usingSNAP, a visual, drag-and-drop programming language
 * Dictionaries
 * Interactivity
 * Iteration
+* Creativity
+* Abstraction
+* Data
+* Programming
+* Global Impact
 
 ## Supplies
 You must have:
