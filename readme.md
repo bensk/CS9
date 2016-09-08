@@ -5,11 +5,11 @@ layout: page
 
 # Advanced Computer Science
 
-Welcome to a new year of Computer Science. This class is based on the Introduction to Computer Science at the University of Berkeley, and is designed to prepare you to take college-level computer science, and expand your opportunities to explore fields in science, technology, engineering, and beyond. This year, we are partnering with TEALS (Technology Education and Literacy in Schools), which will bring engineers into the classroom as instructors, to give you a rigorous and real-world experience.
+Welcome to a new year of Computer Science. This class is based on the Introduction to Computer Science at the University of Berkeley, and is designed to prepare you to take college-level computer science, and expand your opportunities to explore fields in science, technology, engineering, and beyond. This year, we are partnering with TEALS (Technology Education and Literacy in Schools), which will bring engineers into the classroom, to give you a rigorous and real-world experience.
 
-| Instructor                                 | Email                                               |
-|:-------------------------------------------|:----------------------------------------------------|
-| Mr. S-K                                    | [bsk@ms223.org](mailto:bsk@ms223.org)               |
+| Instructor    |Email         |
+|:----------------------|:------------------------------|
+| Mr. S-K     |[bsk@ms223.org](mailto:bsk@ms223.org)              |
 
 ## Attendance
 In order to keep up with concepts, content, and skills, students are expected to attend every class and be on time.
@@ -21,7 +21,7 @@ This class is designed to prepare you for college-level Computer Science, which 
 
 
 ## Behavior
-This is a high school class, so I will keep it short. I expect the same core values that define MS/HS 223:
+This is a high school class, so I will keep it short. I expect the same core values that define The Laboratory School of Finance & Technology:
 
 1. Compassion:  Treat your peers how you would like to be treated.
 2. Scholarship: Being a student is your job. All distractions (food, phones) should be kept out.
@@ -44,13 +44,10 @@ To help encourage your punctuality, TEALS has provided prizes for a weekly raffl
 |:------------------|:-------------------------------------------------------------------------------------------------------|:------:|
 | Major Assessments | Major projects, Culture Day Presentations, End of Unit Assessments                                     |  50%   |
 | Minor Assessments | Classwork, quizzes, participation                                                                      |  40%   |
-| Homework          | You will have homework that requires an internet connection. ELT is the perfect time to complete them. |  10%   |
+| Homework          | You will have homework that requires your Chromebook. |  10%   |
 
 ## Classwork
-The vast majority of your work will be coding assignments, using Python. Those are to be submitted through Google Classroom. Your work will be graded by one of the three instructors for this course. Late work will automatically be deducted a point: a 4 becomes a 3, and so on.
-
-
-During lab days, you may use headphones if you are working independently, with my OK.
+The vast majority of your work will be coding assignments, using SNAP and Python. Those are to be submitted through Google Classroom. Your work will be graded by one of the three instructors for this course. Late work will automatically be deducted a point: a 4 becomes a 3, and so on.
 
 ## Guidelines for Collaboration
 * Looking at websites while you work is OK. I do this all the time.
@@ -64,7 +61,7 @@ All content you use must be your own work, and link to any sources (for images, 
 
 
 ## Topics
-This semester will be using Python, a powerful and popular programming language. Using Python, we will explore key topics in Computer Science including:
+This semester we will be usingSNAP, a visual, drag-and-drop programming language. It is accessible on the web at http://snap.berkeley.edu/ and Python, a powerful and popular programming language. We will explore key topics in Computer Science including:
 
 * Algorithms
 * Loops
@@ -74,7 +71,6 @@ This semester will be using Python, a powerful and popular programming language.
 * Dictionaries
 * Interactivity
 * Iteration
-
 
 ## Supplies
 You must have:
