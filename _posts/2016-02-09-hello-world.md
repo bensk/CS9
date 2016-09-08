@@ -6,7 +6,7 @@ layout: post
 
 🎯 **Learning Target:** I can describe the role of creativity in Computer Science.
 
-👉 **Do Now:** Why will the new iPhone **not** have a headphone jack?
+👉 **Do Now:** Why will the new iPhone not have a headphone jack?
 
 Welcome to the first day of Computer Science.
 
