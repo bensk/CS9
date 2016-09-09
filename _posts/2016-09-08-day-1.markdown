@@ -1,0 +1,43 @@
+---
+layout: post
+title: "Day 0"
+date: "2016-09-08 22:19:56 -0400"
+---
+
+## 🎯Learning Target
+I can create a SNAP login and write functional code in SNAP.
+I can define _algorithm_ and give examples.
+
+## 👉 Do Now
+Join Google Classroom code `6tneev`
+
+**In Google Classroom:** What is an algorithm?
+
+## Notes
+Computers follow a set of instructions called a ___________.
+
+Programs are written in __________.
+
+There are different programming __________. We will be learning one called __________.
+
+What are you better at than a computer? What is a computer better at?
+
+| Markup  |  Programming |
+|---|---|
+|`HTML`
+Using syntax to  displaying information   |  `p5, Python`
+Giving instructions given to a computer. |
+| **Descriptive**  |  **Procedural** |
+| “The car has four doors!”  | “Open the car doors!”  |
+
+Algorithms are **procedural**.
+
+## Lab Time
+Login to Google Classroom and complete “Getting set up in SNAP.”
+
+Good luck have fun goodbye don't bother me... 🎉
+
+## Debrief
+1. What was challenging?
+2. What was similar to programming you’ve done before? What was different?
+3. Why can’t we just program in English?
