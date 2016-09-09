@@ -18,15 +18,15 @@ Computers follow a set of instructions called a ___________.
 
 Programs are written in __________.
 
-There are different programming __________. We will be learning one called __________.
+There are different programming __________.
+
+We will be learning one called __________.
 
 What are you better at than a computer? What is a computer better at?
 
 | Markup  |  Programming |
 |---|---|
-|`HTML`
-Using syntax to  displaying information   |  `p5, Python`
-Giving instructions given to a computer. |
+| Using syntax to  displaying information  `HTML`  |  Giving instructions given to a computer. `p5, Python` |
 | **Descriptive**  |  **Procedural** |
 | “The car has four doors!”  | “Open the car doors!”  |
 
