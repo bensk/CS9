@@ -5,6 +5,7 @@ date: "2016-09-18 21:34"
 ---
 
 In this lab, you will use costumes and movement to create simple SNAP animations.
+
 ## Walk the Dog
 
 1.1) In a SNAP project, click on the file menu, then click costumes. Import the costumes "dog2-b" and "dog2-c".
