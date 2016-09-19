@@ -6,7 +6,7 @@ date: "2016-09-18 21:34"
 
 In this lab, you will use costumes and movement to create simple SNAP animations.
 
-## Walk the Dog
+## 🐶 Walk the Dog
 
 1.1) In a SNAP project, click on the file menu, then click costumes. Import the costumes "dog2-b" and "dog2-c".
 
@@ -16,7 +16,7 @@ In this lab, you will use costumes and movement to create simple SNAP animations
 
 1.4) Add code so that the dog can walk to the right as well.
 
-## Dragons!
+## 🐲 Dragons!
 
 2.1) Create a new sprite. Following the same steps as in part 1.1, import the costumes "dragon1-a" and "dragon1-b"
 
@@ -30,7 +30,7 @@ In this lab, you will use costumes and movement to create simple SNAP animations
 - Pause to breathe fire
 - Change back to the "normal" costume
 
-## Run Away!
+## 🏃 Run Away!
 3.1) Add another sprite to your program. (This sprite can have any costume you choose.)
 
 3.2) Write a script to make this new sprite point away from the dragon and move when the `r` key is pressed. (You'll need more than one block to do this.)
