@@ -43,7 +43,7 @@ Note that multiple of these requirements may be satisfied by the same sprite (e.
 ## Specifications
 
 | Functional Correctness (Behavior)                                                                  |  Points         |
-|--------------------------------------------------------------------------------------------------------|-----------|
+|--------------------------------------------------------------------------------------------------------|:-----------:|
 | Animation depicts a full scene (or approved smaller portion)                                           | 2 points  |
 | Scene is shown one line at a time                                                                      | 2 points  |
 | Each line is accompanied by sprites depicting the story, and all action is related to the current line | 3 points  |
@@ -59,4 +59,4 @@ Note that multiple of these requirements may be satisfied by the same sprite (e.
 | At least one sprite changes costume                                                                    | 1 points  |
 | At least one sprite hides and/or appears                                                               | 1 points  |
 | **Total**                                                                                                  | **8 points**  |
-| **PROJECT TOTAL**                                                                                          | <h2>20 points</h2> |
+| **PROJECT TOTAL**                                                                                          | **20 points** |
