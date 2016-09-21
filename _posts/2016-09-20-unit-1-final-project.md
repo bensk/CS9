@@ -40,75 +40,23 @@ As mentioned above, your animation must display the scene in its entirety and an
 
 Note that multiple of these requirements may be satisfied by the same sprite (e.g. the same sprite can both move and change costume), but you must have at least two separate sprites that act in the animation.
 
-## Grading Scheme/Rubric
+## Specifications
 
-<table>
-  <tr>
-    <td>Functional Correctness (Behavior)</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Animation depicts a full scene (or approved smaller portion)</td>
-    <td>2 points</td>
-  </tr>
-  <tr>
-    <td>Scene is shown one line at a time</td>
-    <td>2 points</td>
-  </tr>
-  <tr>
-    <td>Each line is accompanied by sprites depicting the story, and all action is related to the current line</td>
-    <td>3 points</td>
-  </tr>
-  <tr>
-    <td>Clicking green flag starts animation from beginning</td>
-    <td>1 point</td>
-  </tr>
-  <tr>
-    <td>Animation progresses at a reasonable pace</td>
-    <td>2 points</td>
-  </tr>
-  <tr>
-    <td>User is able to restart animation when it concludes</td>
-    <td>2 points</td>
-  </tr>
-  <tr>
-    <td>Total</td>
-    <td>12 points</td>
-  </tr>
-  <tr>
-    <td>Technical Correctness (Implementation)</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Program shows good creativity and effort</td>
-    <td>2 points</td>
-  </tr>
-  <tr>
-    <td>At least two sprites participate in the action</td>
-    <td>2 points</td>
-  </tr>
-  <tr>
-    <td>At least one sprite moves</td>
-    <td>1 points</td>
-  </tr>
-  <tr>
-    <td>At least one sprite rotates</td>
-    <td>1 points</td>
-  </tr>
-  <tr>
-    <td>At least one sprite changes costume</td>
-    <td>1 points</td>
-  </tr>
-  <tr>
-    <td>At least one sprite hides and/or appears</td>
-    <td>1 points</td>
-  </tr>
-  <tr>
-    <td>Total</td>
-    <td>8 points</td>
-  </tr>
-  <tr>
-    <td>PROJECT TOTAL</td>
-    <td>20 points</td>
-  </tr>
-</table>
+| <h2>Functional Correctness (Behavior) </h2>                                                                     |  Points         |
+|--------------------------------------------------------------------------------------------------------|-----------|
+| Animation depicts a full scene (or approved smaller portion)                                           | 2 points  |
+| Scene is shown one line at a time                                                                      | 2 points  |
+| Each line is accompanied by sprites depicting the story, and all action is related to the current line | 3 points  |
+| Clicking green flag starts animation from beginning                                                    | 1 point   |
+| Animation progresses at a reasonable pace                                                              | 2 points  |
+| User is able to restart animation when it concludes                                                    | 2 points  |
+| **Total**                                                                                                  | **12 points** |
+| <h2>Technical Correctness (Implementation)     </h2>                                                            |           |
+| Program shows good creativity and effort                                                               | 2 points  |
+| At least two sprites participate in the action                                                         | 2 points  |
+| At least one sprite moves                                                                              | 1 points  |
+| At least one sprite rotates                                                                            | 1 points  |
+| At least one sprite changes costume                                                                    | 1 points  |
+| At least one sprite hides and/or appears                                                               | 1 points  |
+| **Total**                                                                                                  | **8 points**  |
+| <h2>PROJECT TOTAL</h2>                                                                                          | <h2>20 points</h2> |
