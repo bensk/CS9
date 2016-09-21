@@ -42,7 +42,7 @@ Note that multiple of these requirements may be satisfied by the same sprite (e.
 
 ## Specifications
 
-| <h2>Functional Correctness (Behavior) </h2>                                                                     |  Points         |
+| Functional Correctness (Behavior)                                                                  |  Points         |
 |--------------------------------------------------------------------------------------------------------|-----------|
 | Animation depicts a full scene (or approved smaller portion)                                           | 2 points  |
 | Scene is shown one line at a time                                                                      | 2 points  |
@@ -51,7 +51,7 @@ Note that multiple of these requirements may be satisfied by the same sprite (e.
 | Animation progresses at a reasonable pace                                                              | 2 points  |
 | User is able to restart animation when it concludes                                                    | 2 points  |
 | **Total**                                                                                                  | **12 points** |
-| <h2>Technical Correctness (Implementation)     </h2>                                                            |           |
+| **Technical Correctness (Implementation)     **                                                          |           |
 | Program shows good creativity and effort                                                               | 2 points  |
 | At least two sprites participate in the action                                                         | 2 points  |
 | At least one sprite moves                                                                              | 1 points  |
@@ -59,4 +59,4 @@ Note that multiple of these requirements may be satisfied by the same sprite (e.
 | At least one sprite changes costume                                                                    | 1 points  |
 | At least one sprite hides and/or appears                                                               | 1 points  |
 | **Total**                                                                                                  | **8 points**  |
-| <h2>PROJECT TOTAL</h2>                                                                                          | <h2>20 points</h2> |
+| **PROJECT TOTAL**                                                                                          | <h2>20 points</h2> |
