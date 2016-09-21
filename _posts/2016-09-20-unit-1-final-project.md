@@ -4,7 +4,7 @@ title: "🔚Unit 1 Final Project"
 date: "2016-09-20 23:25"
 ---
 
-**You will create a short animation in SNAP depicting a scene. **
+**You will create a short animation in SNAP depicting a scene.**
 
 This could be a scene from a book/movie/play, depict lyrics from your favorite song, or your own unique animations
 
