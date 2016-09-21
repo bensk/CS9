@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "🔚Unit 1 Final Project"
+title: "🔚 Unit 1 Final Project"
 date: "2016-09-20 23:25"
 ---
 
