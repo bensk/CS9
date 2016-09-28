@@ -4,7 +4,7 @@
  <title>CS9</title>
  <link href="http://bsk.education/CS9/atom.xml" rel="self"/>
  <link href="http://bsk.education/CS9/"/>
- <updated>2016-09-27T21:38:43-04:00</updated>
+ <updated>2016-09-27T21:46:03-04:00</updated>
  <id>http://bsk.education/CS9</id>
  <author>
    <name>Ben Samuels-Kalow</name>
@@ -19,6 +19,20 @@
    <id>http://bsk.education/CS9/2016/09/27/➿-nested-loops</id>
    <content type="html">&lt;h2 id=&quot;learning-target&quot;&gt;🎯 Learning Target&lt;/h2&gt;
 &lt;p&gt;I can use nested loops to solve programming problems.&lt;/p&gt;
+
+&lt;h2 id=&quot;do-now-in-google-classroom&quot;&gt;Do Now (in Google Classroom)&lt;/h2&gt;
+&lt;p&gt;Why are loops useful?&lt;/p&gt;
+
+&lt;p&gt;Let’s look an example. Write code to draw two squares, next to each other.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://snap.berkeley.edu/snapsource/snap.html#present:Username=223bsk&amp;amp;ProjectName=nestedLoops&quot;&gt;⬛⬛&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;nested-loops&quot;&gt;Nested Loops&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;A loop in a loop.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;em&gt;In other words…&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://bsk.education/CS9/images/NestedLoops.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 </content>
