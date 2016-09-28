@@ -4,7 +4,7 @@
  <title>CS9</title>
  <link href="http://bsk.education/CS9/atom.xml" rel="self"/>
  <link href="http://bsk.education/CS9/"/>
- <updated>2016-09-27T21:46:03-04:00</updated>
+ <updated>2016-09-27T21:59:50-04:00</updated>
  <id>http://bsk.education/CS9</id>
  <author>
    <name>Ben Samuels-Kalow</name>
@@ -35,6 +35,30 @@
 &lt;p&gt;&lt;em&gt;In other words…&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://bsk.education/CS9/images/NestedLoops.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;lab-22---its-brick&quot;&gt;Lab 2.2 - It’s Brick&lt;/h2&gt;
+
+&lt;p&gt;In this lab, you will use nested loops to draw a large brick wall using as little code as possible.&lt;/p&gt;
+
+&lt;h2 id=&quot;part-1---build-a-brick&quot;&gt;Part 1 - Build a Brick&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;Write a SNAP script to draw a single 20x10 “brick” in the lower left corner of the stage when the green flag is clicked.&lt;/li&gt;
+  &lt;li&gt;Modify your code to draw two bricks side by side. The bricks should share a short edge.&lt;/li&gt;
+  &lt;li&gt;Now modify your code again to build a full row of bricks across the entire length of the stage. Use loop to keep your code as concise as possible. Remember that the stage is 480 pixels wide and 360 pixels tall (by default- you can change that).&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;part-2---build-a-wall&quot;&gt;Part 2 - Build a Wall&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;Now that you can build a row of bricks, add code to build a second row above the first row. The bricks in the second row should share a long edge with those in the first row, but should be “offset” so that the ends of the second row bricks are at the middle of the first row bricks.&lt;/li&gt;
+  &lt;li&gt;Modify your code to build more rows, alternating back and forth between the “regular” and “offset” rows. Use nested loops to keep your code concise.&lt;/li&gt;
+  &lt;li&gt;Finish off the wall the by building alternating rows all the way to the top of the stage. Remember that the stage is 360 pixels tall. Your final wall should look like this:&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://bsk.education/CS9/images/Bricks.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Can you build the whole wall with one nested loop?&lt;/p&gt;
 </content>
  </entry>
  
