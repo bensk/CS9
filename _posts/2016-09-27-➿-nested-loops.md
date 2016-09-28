@@ -21,6 +21,11 @@ _In other words..._
 
 ![]({{ site.url }}/images/NestedLoops.jpg)
 
+How many times will the sprite take 20 steps?
+
+![]({{ site.url }}images/NestedLoopsRepeat.png)
+
+
 ---
 
 ## Lab 2.2 - It's Brick
