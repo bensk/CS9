@@ -4,7 +4,7 @@
  <title>CS9</title>
  <link href="http://bsk.education/CS9/atom.xml" rel="self"/>
  <link href="http://bsk.education/CS9/"/>
- <updated>2016-09-07T21:37:09-04:00</updated>
+ <updated>2016-09-27T21:38:43-04:00</updated>
  <id>http://bsk.education/CS9</id>
  <author>
    <name>Ben Samuels-Kalow</name>
@@ -13,13 +13,422 @@
 
  
  <entry>
+   <title>➿ Nested Loops</title>
+   <link href="http://bsk.education/CS9/2016/09/27/nested-loops/"/>
+   <updated>2016-09-27T21:32:00-04:00</updated>
+   <id>http://bsk.education/CS9/2016/09/27/➿-nested-loops</id>
+   <content type="html">&lt;h2 id=&quot;learning-target&quot;&gt;🎯 Learning Target&lt;/h2&gt;
+&lt;p&gt;I can use nested loops to solve programming problems.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://bsk.education/CS9/images/NestedLoops.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>🔁 Unit 2: Loops</title>
+   <link href="http://bsk.education/CS9/2016/09/25/unit-2-loops/"/>
+   <updated>2016-09-25T21:38:00-04:00</updated>
+   <id>http://bsk.education/CS9/2016/09/25/🔁-unit-2-loops</id>
+   <content type="html">&lt;h2 id=&quot;learning-target&quot;&gt;🎯 Learning Target&lt;/h2&gt;
+&lt;p&gt;I can explain that iteration is the repetition of part of an algorithm until a condition is met or for a specified number of times.&lt;/p&gt;
+
+&lt;p&gt;I can create loops in SNAP to reduce the complexity of an existing algorithm.&lt;/p&gt;
+
+&lt;h2 id=&quot;do-now&quot;&gt;Do Now&lt;/h2&gt;
+&lt;p&gt;What is a “loop”? Where have you seen them before?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Redundancy&lt;/strong&gt;
+Data that can be left out without loss of function. Repitition.
+&lt;strong&gt;Readability&lt;/strong&gt;
+Able to be read. Understandable.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://snap.berkeley.edu/snapsource/snap.html#present:Username=brettwo&amp;amp;ProjectName=Lesson%202.1%20Example&quot;&gt;Example&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;loop&quot;&gt;Loop&lt;/h2&gt;
+&lt;p&gt;A type of block that causes other code to run multiple times in succession&lt;/p&gt;
+
+&lt;p&gt;Help with:&lt;/p&gt;
+
+&lt;h3 id=&quot;readability-of-code&quot;&gt;↑Readability of code&lt;/h3&gt;
+
+&lt;h3 id=&quot;redundancy&quot;&gt;↓Redundancy&lt;/h3&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;lab-21---geometric-fun-times-v20&quot;&gt;Lab 2.1 - Geometric Fun Times v2.0™&lt;/h1&gt;
+&lt;p&gt;Remember when you drew all those shapes? Didn’t it seem like it should be &lt;em&gt;easier&lt;/em&gt;? Well…&lt;/p&gt;
+
+&lt;p&gt;In this lab, you will rewrite your SNAP programs from Lab 1.3 to draw shapes using &lt;strong&gt;loops&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;section-1---back-in-time&quot;&gt;Section 1 - Back In Time&lt;/h2&gt;
+
+&lt;p&gt;Open your solution to the original &lt;a href=&quot;http://bsk.education/CS9/2016/09/15/lab-1-1/&quot;&gt;Lab 1.1&lt;/a&gt;. Go to the “File” menu and select “Save as…” to give your project a new name.&lt;/p&gt;
+
+&lt;p&gt;If your shapes are not &lt;em&gt;already&lt;/em&gt; different colors and line-thicknesses, update them now.&lt;/p&gt;
+
+&lt;h2 id=&quot;section-2---simplifying-code&quot;&gt;Section 2 - Simplifying Code&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;Look at your code to draw a square. It is probably quite long and has lots of repeated blocks. Using what you have learned about loops, rewrite this script to be shorter and have less redundancy. Make sure that your code still works as originally intended.&lt;/li&gt;
+  &lt;li&gt;Now modify your other shape scripts to also use loops. In all cases, try to have as few blocks and as little redundancy as possible while still keeping your code easy to read and understand.&lt;/li&gt;
+  &lt;li&gt;Do you notice a pattern for the number of sides of a shape, the number of &lt;code class=&quot;highlighter-rouge&quot;&gt;repeat&lt;/code&gt; and the &lt;code class=&quot;highlighter-rouge&quot;&gt;turn 🔄 ___ degrees&lt;/code&gt; for each shape? Hmm…that’s interesting.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;section-3---lets-be-lazy&quot;&gt;Section 3 - Let’s be lazy.&lt;/h2&gt;
+
+&lt;p&gt;We’re going to make a block called &lt;code class=&quot;highlighter-rouge&quot;&gt;shape&lt;/code&gt; and make it do all the work for us.
+Add code to your program to draw the extra shapes below. Follow all the original guidelines (different color and line thickness for each shape, say the name while drawing) and use loops to keep your scripts as short as possible.&lt;/p&gt;
+
+&lt;p&gt;How can you draw a circle? Are you &lt;em&gt;really&lt;/em&gt; drawing a circle?&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>🔚 Unit 1 Final Project</title>
+   <link href="http://bsk.education/CS9/2016/09/20/unit-1-final-project/"/>
+   <updated>2016-09-20T23:25:00-04:00</updated>
+   <id>http://bsk.education/CS9/2016/09/20/unit-1-final-project</id>
+   <content type="html">&lt;p&gt;&lt;strong&gt;You will create a short animation in SNAP depicting a scene.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This could be a scene from a book/movie/play, depict lyrics from your favorite song, or your own unique animations&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Whenever the green flag is clicked, your SNAP animation should display your chosen scene line by line somewhere on the stage. (This should work correctly even if the last run was interrupted and restart.)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;As each line is shown, sprites should act out the story.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The animation should advance on its own, but should do so at a pace that allows each action to complete and the viewer to read the line before the next line is shown and new action begins.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;In addition, the sprites must act out the scene; you should not simply create a series of static backgrounds or costumes that show a stop-motion version of the story.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Each line must be readable and must stay shown while the corresponding action is occurring.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;When the story ends, there should be a way for the user to replay the entire animation from the beginning.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;You are free to be as creative as you like with your choice of sprites and actions.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;You may choose from the sprites provided by SNAP or create your own. (You will not be graded on your artistic skills.) You may interpret the scene literally or be clever with your depiction. However, &lt;em&gt;all sprites, behaviors, words, and animations must be school-appropriate.&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;implementation-details&quot;&gt;&lt;strong&gt;Implementation Details&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;As mentioned above, your animation must display the scene in its entirety and animate each line. Action must be performed by sprites and must consist of more than simply changing costumes. You must include the following components in your animation:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;At least two sprites that act in some way to contribute to the depiction of the story&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;At least one sprite that moves&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;At least one sprite that rotates&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;At least one sprite that changes costume&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;At least one sprite that is both hidden and shown at some point&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Note that multiple of these requirements may be satisfied by the same sprite (e.g. the same sprite can both move and change costume), but you must have at least two separate sprites that act in the animation.&lt;/p&gt;
+
+&lt;h2 id=&quot;specifications&quot;&gt;Specifications&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Functional Correctness (Behavior)&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Points&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Animation depicts a full scene (or approved smaller portion)&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;2 points&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Scene is shown one line at a time&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;2 points&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Each line is accompanied by sprites depicting the story, and all action is related to the current line&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;3 points&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Clicking green flag starts animation from beginning&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1 point&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Animation progresses at a reasonable pace&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;2 points&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;User is able to restart animation when it concludes&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;2 points&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Total&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;12 points&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;**Technical Correctness (Implementation)     **&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Program shows good creativity and effort&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;2 points&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;At least two sprites participate in the action&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;2 points&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;At least one sprite moves&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1 points&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;At least one sprite rotates&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1 points&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;At least one sprite changes costume&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1 points&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;At least one sprite hides and/or appears&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1 points&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Total&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;8 points&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;PROJECT TOTAL&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;20 points&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>🐶🐲🏃 First Animation</title>
+   <link href="http://bsk.education/CS9/2016/09/18/first-animation/"/>
+   <updated>2016-09-18T21:34:00-04:00</updated>
+   <id>http://bsk.education/CS9/2016/09/18/first-animation</id>
+   <content type="html">&lt;p&gt;In this lab, you will use costumes and movement to create simple SNAP animations.&lt;/p&gt;
+
+&lt;h2 id=&quot;walk-the-dog&quot;&gt;🐶 Walk the Dog&lt;/h2&gt;
+
+&lt;p&gt;1.1) In a SNAP project, click on the file menu, then click costumes. Import the costumes “dog2-b” and “dog2-c”.&lt;/p&gt;
+
+&lt;p&gt;1.2) Write a script to make the sprite change costume each time the spacebar is pressed. The sprite should switch back and forth between the two costumes.&lt;/p&gt;
+
+&lt;p&gt;1.3) Add code so that the sprite will face to the left, move a few steps, and change costume when the left arrow key is pressed. If you’ve done it right, it should look like the dog is walking when you press the left arrow key repeatedly.&lt;/p&gt;
+
+&lt;p&gt;1.4) Add code so that the dog can walk to the right as well.&lt;/p&gt;
+
+&lt;h2 id=&quot;dragons&quot;&gt;🐲 Dragons!&lt;/h2&gt;
+
+&lt;p&gt;2.1) Create a new sprite. Following the same steps as in part 1.1, import the costumes “dragon1-a” and “dragon1-b”&lt;/p&gt;
+
+&lt;p&gt;2.2) Write a script to make the sprite appear to breathe fire when the &lt;code class=&quot;highlighter-rouge&quot;&gt;f&lt;/code&gt; key is pressed. The sprite should switch to the “fire-breathing” costume for a few seconds, then switch back to the “normal” costume.&lt;/p&gt;
+
+&lt;p&gt;2.3) Modify your code so that the dragon “attacks” the mouse pointer when the ‘f’ key is pressed. When the &lt;code class=&quot;highlighter-rouge&quot;&gt;f&lt;/code&gt; key is pressed, the dragon should take the following actions in order:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Make sure it is in the “normal” costume&lt;/li&gt;
+  &lt;li&gt;Point at the mouse pointer&lt;/li&gt;
+  &lt;li&gt;Glide to the mouse pointer’s position&lt;/li&gt;
+  &lt;li&gt;Change to the “fire-breathing” costume&lt;/li&gt;
+  &lt;li&gt;Pause to breathe fire&lt;/li&gt;
+  &lt;li&gt;Change back to the “normal” costume&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;run-away&quot;&gt;🏃 Run Away!&lt;/h2&gt;
+&lt;p&gt;3.1) Add another sprite to your program. (This sprite can have any costume you choose.)&lt;/p&gt;
+
+&lt;p&gt;3.2) Write a script to make this new sprite point away from the dragon and move when the &lt;code class=&quot;highlighter-rouge&quot;&gt;r&lt;/code&gt; key is pressed. (You’ll need more than one block to do this.)&lt;/p&gt;
+
+&lt;p&gt;3.3) Modify your code so that instead of moving when the &lt;code class=&quot;highlighter-rouge&quot;&gt;r&lt;/code&gt; key is pressed, the new sprite moves when the dragon “attacks.” The “fleeing” sprite should move when the dragon starts breathing fire.&lt;/p&gt;
+
+&lt;p&gt;3.4) Add a second sprite that runs away from the dragon as well.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Lab 1⃣.1⃣</title>
+   <link href="http://bsk.education/CS9/2016/09/15/lab-1-1/"/>
+   <updated>2016-09-15T07:32:00-04:00</updated>
+   <id>http://bsk.education/CS9/2016/09/15/lab-1⃣-1⃣</id>
+   <content type="html">&lt;h1 id=&quot;geometric-fun-times&quot;&gt;Geometric Fun Times™&lt;/h1&gt;
+
+&lt;p&gt;In this lab, you will write your first SNAP programs to draw some simple shapes on the stage.&lt;/p&gt;
+
+&lt;h2 id=&quot;drawing-a-square&quot;&gt;1. Drawing a square&lt;/h2&gt;
+
+&lt;p&gt;1.1) Write a SNAP script that &lt;strong&gt;draws a square&lt;/strong&gt; when the &lt;strong&gt;number &lt;code class=&quot;highlighter-rouge&quot;&gt;1&lt;/code&gt;&lt;/strong&gt; is pressed on the keyboard. Remember that each corner of a square is a 90° angle.&lt;/p&gt;
+
+&lt;p&gt;1.2) &lt;strong&gt;Add code&lt;/strong&gt; so that the sprite &lt;strong&gt;says the word “square”&lt;/strong&gt; while it is drawing. The sprite should &lt;strong&gt;stop&lt;/strong&gt; saying “square” once it has finished drawing the square.&lt;/p&gt;
+
+&lt;p&gt;1.3) &lt;strong&gt;Add code&lt;/strong&gt; so that pressing the spacebar clears the pen marks from the stage.&lt;/p&gt;
+
+&lt;p&gt;Comment your code explaining your work.&lt;/p&gt;
+
+&lt;h2 id=&quot;adding-more-shapes&quot;&gt;2. Adding more shapes&lt;/h2&gt;
+
+&lt;p&gt;2.1) Now that you’ve drawn a square, add code to draw the shapes in the following table. Each shape should be drawn when the number next to it is pressed on the keyboard. (For example, pressing 3 on the keyboard should draw a diamond.)&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tr&gt;
+    &lt;td&gt;When this key is pressed...&lt;/td&gt;
+    &lt;td&gt;Draw a ...&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;code&gt;1&lt;/code&gt;&lt;/td&gt;
+    &lt;td&gt;Square&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;code&gt;2&lt;/code&gt;&lt;/td&gt;
+    &lt;td&gt;Equilateral triangle&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;code&gt;3&lt;/code&gt;&lt;/td&gt;
+    &lt;td&gt;Diamond&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;code&gt;4&lt;/code&gt;&lt;/td&gt;
+    &lt;td&gt;Pentagon&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;code&gt;5&lt;/code&gt;&lt;/td&gt;
+    &lt;td&gt;Parallelogram (&quot;leaning rectangle&quot;)&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;code&gt;6&lt;/code&gt; &lt;/td&gt;
+    &lt;td&gt;5-pointed star&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;p&gt;You will probably want to draw a sketch of each to figure out the angles in each shape.&lt;/p&gt;
+
+&lt;p&gt;2.2) &lt;strong&gt;Add code&lt;/strong&gt; so that as each shape is being drawn, the sprite is saying the name of shape. The sprite should &lt;strong&gt;stop&lt;/strong&gt; saying the name of the sprite when it is finished drawing.&lt;/p&gt;
+
+&lt;p&gt;2.3) &lt;strong&gt;Modify&lt;/strong&gt; your code so that each different shape is drawn in a &lt;strong&gt;&lt;em&gt;different&lt;/em&gt;&lt;/strong&gt; color and with a &lt;strong&gt;&lt;em&gt;different&lt;/em&gt;&lt;/strong&gt; line &lt;strong&gt;&lt;em&gt;thick&lt;/em&gt;&lt;/strong&gt;ness. So, for example, if the square is drawn in &lt;strong&gt;blue&lt;/strong&gt; with a line thickness of 3, each other shape must be drawn in a color that is &lt;strong&gt;not&lt;/strong&gt; blue and with a line thickness that is &lt;strong&gt;not&lt;/strong&gt; 3. You can choose whatever colors your want.&lt;/p&gt;
+
+&lt;p&gt;2.4) &lt;strong&gt;Add&lt;/strong&gt; code so that the sprite is hidden when it is not drawing. This is will make sure that the sprite is not obstructing the view of your beautiful artwork!&lt;/p&gt;
+
+&lt;p&gt;3) &lt;strong&gt;Comment your code!&lt;/strong&gt; What did you do? Where did you get stuck? How did you fix it?&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Lab 1⃣</title>
+   <link href="http://bsk.education/CS9/2016/09/13/lab-1/"/>
+   <updated>2016-09-13T20:51:00-04:00</updated>
+   <id>http://bsk.education/CS9/2016/09/13/lab-1⃣</id>
+   <content type="html">&lt;h2 id=&quot;learning-targets&quot;&gt;🎯 Learning Targets&lt;/h2&gt;
+&lt;p&gt;I can explain in writing the expected outcome of a piece of code.   &lt;br /&gt;
+I can complete a CS lab to specification.&lt;/p&gt;
+
+&lt;h2 id=&quot;do-now&quot;&gt;👉 Do Now&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;Login to Classroom and open Lab 1.0.&lt;/li&gt;
+  &lt;li&gt;Complete the &lt;strong&gt;Do Now&lt;/strong&gt; portion of the lab.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;lab-days&quot;&gt;Lab Days&lt;/h2&gt;
+
+&lt;p&gt;This is our first Lab Day. You will be working at your own pace on a series of programming challenges and projects. You are welcome to consult teachers or classmates for help or hints (and you are more than welcome to help others), but your work must be your own, and you must be able to explain it.&lt;/p&gt;
+
+&lt;p&gt;The expectation for Lab Days is that you are documenting your work in your code, giving credit to classmates or any other sources of assistance and inspiration.&lt;/p&gt;
+
+&lt;p&gt;Good luck, and have fun!&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Day 0⃣</title>
+   <link href="http://bsk.education/CS9/2016/09/08/day-1/"/>
+   <updated>2016-09-08T22:19:56-04:00</updated>
+   <id>http://bsk.education/CS9/2016/09/08/day-1</id>
+   <content type="html">&lt;h2 id=&quot;learning-target&quot;&gt;🎯 Learning Target&lt;/h2&gt;
+&lt;p&gt;I can create a SNAP login and write functional code in SNAP.
+I can define &lt;em&gt;algorithm&lt;/em&gt; and give examples.&lt;/p&gt;
+
+&lt;h2 id=&quot;do-now&quot;&gt;👉 Do Now&lt;/h2&gt;
+&lt;p&gt;Join Google Classroom code &lt;code class=&quot;highlighter-rouge&quot;&gt;6tneev&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;In Google Classroom:&lt;/strong&gt; What is an algorithm?&lt;/p&gt;
+
+&lt;h2 id=&quot;notes&quot;&gt;Notes&lt;/h2&gt;
+&lt;p&gt;Computers follow a set of instructions called a &lt;strong&gt;__&lt;/strong&gt;_____.&lt;/p&gt;
+
+&lt;p&gt;Programs are written in &lt;strong&gt;__&lt;/strong&gt;&lt;em&gt;__&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;There are different programming &lt;strong&gt;__&lt;/strong&gt;&lt;em&gt;__&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;We will be learning one called &lt;strong&gt;__&lt;/strong&gt;&lt;em&gt;__&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;What are you better at than a computer? What is a computer better at?&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Markup&lt;/th&gt;
+      &lt;th&gt;Programming&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Using syntax to  displaying information  &lt;code class=&quot;highlighter-rouge&quot;&gt;HTML&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;Giving instructions given to a computer. &lt;code class=&quot;highlighter-rouge&quot;&gt;p5, Python&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Descriptive&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;Procedural&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;“The car has four doors!”&lt;/td&gt;
+      &lt;td&gt;“Open the car doors!”&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Algorithms are &lt;strong&gt;procedural&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;lab-time&quot;&gt;Lab Time&lt;/h2&gt;
+&lt;p&gt;Login to Google Classroom and complete “Getting set up in SNAP.”&lt;/p&gt;
+
+&lt;p&gt;Good luck have fun goodbye don’t bother me… 🎉&lt;/p&gt;
+
+&lt;h2 id=&quot;debrief&quot;&gt;Debrief&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;What was challenging?&lt;/li&gt;
+  &lt;li&gt;What was similar to programming you’ve done before? What was different?&lt;/li&gt;
+  &lt;li&gt;Why can’t we just program in English?&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>🎉Hello World</title>
    <link href="http://bsk.education/CS9/2016/09/08/hello-world/"/>
    <updated>2016-09-08T00:00:00-04:00</updated>
    <id>http://bsk.education/CS9/2016/09/08/hello-world</id>
    <content type="html">&lt;p&gt;🎯 &lt;strong&gt;Learning Target:&lt;/strong&gt; I can describe the role of creativity in Computer Science.&lt;/p&gt;
 
-&lt;p&gt;👉 &lt;strong&gt;Do Now:&lt;/strong&gt; How do you want high school to be &lt;em&gt;different&lt;/em&gt; than middle school?&lt;/p&gt;
+&lt;p&gt;👉 &lt;strong&gt;Do Now:&lt;/strong&gt; Why does the new iPhone 7 &lt;strong&gt;not&lt;/strong&gt; have a headphone jack?&lt;/p&gt;
 
 &lt;p&gt;Welcome to the first day of Computer Science.&lt;/p&gt;
 
