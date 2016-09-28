@@ -23,7 +23,7 @@ _In other words..._
 
 How many times will the sprite take 20 steps?
 
-![]({{ site.url }}images/NestedLoopsRepeat.png)
+![]({{ site.url }}/images/NestedLoopsRepeat.png)
 
 
 ---
