@@ -1,13 +1,12 @@
 ---
 layout: "post"
-title: "🍂 Lab 2⃣.2⃣ Defining Gravity"
+title: "🍂 Lab 2⃣.3⃣ Defining Gravity"
 date: "2016-09-29 07:20"
 ---
 
 **In this lab, you will use everything you've learned about loops and conditionals to construct a simplified model for gravity.**
 
-## What goes up...
-
+## What goes up...🐶
 1. Create a SNAP program with a background that looks like an outside scene. Add a single sprite that looks like an object of your choice (a brick or a ball would work well) and place it so it is touching the "ground."
 2. Write code for your sprite so that, when the green flag is clicked, the object moves to the top of the stage and "falls" towards the bottom at a constant speed.
 3. What happens in your program when the object hits the "ground"? Is that an accurate model of how gravity works on Earth?
