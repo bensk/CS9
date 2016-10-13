@@ -1,7 +1,7 @@
 ---
 layout: "post"
 title: "Lab 3⃣.0⃣ Guessing Game"
-date: "2016-10-12 22:18"
+date: "2016-10-13 22:18"
 ---
 
 In this lab, you will use conditional statements and variables to build a simple number guessing game.
