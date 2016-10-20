@@ -4,7 +4,7 @@
  <title>CS9</title>
  <link href="http://bsk.education/CS9/atom.xml" rel="self"/>
  <link href="http://bsk.education/CS9/"/>
- <updated>2016-09-27T21:59:50-04:00</updated>
+ <updated>2016-10-19T14:59:26-04:00</updated>
  <id>http://bsk.education/CS9</id>
  <author>
    <name>Ben Samuels-Kalow</name>
@@ -13,10 +13,210 @@
 
  
  <entry>
+   <title>🔢 Lists!</title>
+   <link href="http://bsk.education/CS9/2016/10/17/lists/"/>
+   <updated>2016-10-17T09:30:00-04:00</updated>
+   <id>http://bsk.education/CS9/2016/10/17/🔢-lists</id>
+   <content type="html">&lt;h2 id=&quot;learning-targets&quot;&gt;Learning Targets&lt;/h2&gt;
+&lt;p&gt;I can create, modify, and access lists in SNAP.&lt;/p&gt;
+
+&lt;h2 id=&quot;do-now-on-paper&quot;&gt;Do Now (on paper)&lt;/h2&gt;
+&lt;p&gt;Write an algorithm to reverse the order of any sentence.
+For example, your algorithm would make the Do Now turn into:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Sentence a of order the reverse to algorithm an write.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;pseudocode&quot;&gt;Pseudocode&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sentence = word_1 + word_2 + word_3 + … + word_n&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;ecnetnes = word_n + … + word_3 + word _ 2 + word_1&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;We need &lt;strong&gt;variables&lt;/strong&gt; But we don’t know &lt;strong&gt;how many&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;variables-vs-lists&quot;&gt;Variables vs. Lists&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Variables&lt;/strong&gt; store a single value in a single location.
+&lt;strong&gt;Lists&lt;/strong&gt; store multiple values in a single location.&lt;/p&gt;
+
+&lt;h2 id=&quot;list-traversal&quot;&gt;List Traversal&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Looking at each element of a list in order and performing some operation.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;ex. Say each person’s name, count the number of May birthdays, find the average GPA…&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;index&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;split&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;join&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;sdrawkcab&quot;&gt;Sdrawkcab&lt;/h2&gt;
+&lt;p&gt;Build a SNAP block that reverses the order of a sentence by splitting it into a list.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Lab 3⃣.0⃣ Guessing Game</title>
+   <link href="http://bsk.education/CS9/2016/10/13/lab-3-0-guessing-game/"/>
+   <updated>2016-10-13T22:18:00-04:00</updated>
+   <id>http://bsk.education/CS9/2016/10/13/lab-3⃣-0⃣-guessing-game</id>
+   <content type="html">&lt;p&gt;In this lab, you will use conditional statements and variables to build a simple number guessing game.&lt;/p&gt;
+
+&lt;h2 id=&quot;section-1---im-thinking-of-a-number&quot;&gt;Section 1 - I’m Thinking of a Number…&lt;/h2&gt;
+&lt;p&gt;You will write a SNAP program to choose a random number between 1 and 10 and then ask the user to guess a number.&lt;/p&gt;
+
+&lt;p&gt;If the user’s guess matches the random number, the user wins. If not, the user loses. In either case, the user should be shown a message indicating whether she won or lost and the secret random number should be revealed.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Write the simple version of the guessing game program described above.&lt;/li&gt;
+  &lt;li&gt;Modify the program to keep asking the user for guesses until the correct number is given. Be sure to give a message after each guess, but only reveal the secret number when the user has guessed correctly and the game is over.&lt;/li&gt;
+  &lt;li&gt;Add code to ask the player their name at the start of the game. Then, personalize the message for an incorrect guess by adding the player’s name. For example, if Scout is playing the game, then the message should say “Sorry, Scout, that guess is not correct” instead of just “Sorry” when Scout guesses incorrectly.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-2---game-upgrades&quot;&gt;Section 2 - Game Upgrades&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Modify your guessing game so that the player can decide the range of possible numbers from which the secret number can be chosen. After asking the player’s name, ask what she wants the highest possible number to be. Then, instead of choosing a random number between 1 and 10, choose a random number between 1 and the number the player requested.&lt;/li&gt;
+  &lt;li&gt;Add code to keep track of how many guesses the player has made. After the player guesses correctly, inform her how many tries it took before the correct number was guessed.&lt;/li&gt;
+  &lt;li&gt;Increase the player’s chances by telling her whether the guessed number is too high or too low instead of just that it is incorrect.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>❓Unit 3: Variables</title>
+   <link href="http://bsk.education/CS9/2016/10/13/variables-guessing-game/"/>
+   <updated>2016-10-13T22:04:00-04:00</updated>
+   <id>http://bsk.education/CS9/2016/10/13/❓variables-guessing-game</id>
+   <content type="html">&lt;h2 id=&quot;learning-target&quot;&gt;Learning Target&lt;/h2&gt;
+&lt;p&gt;I can create variables in SNAP.&lt;/p&gt;
+
+&lt;h2 id=&quot;do-now-in-google-classroom&quot;&gt;Do Now (In Google Classroom)&lt;/h2&gt;
+&lt;p&gt;What is a variable?   &lt;br /&gt;
+Why are they useful in programming?&lt;/p&gt;
+
+&lt;h2 id=&quot;variable&quot;&gt;Variable&lt;/h2&gt;
+&lt;p&gt;A “place” to store information.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://bsk.education/CS9/images/SNAPaskAnswer.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://bsk.education/CS9/images/SNAPaskaskanswer.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://bsk.education/CS9/images/SNAPterriblebetter.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>🏓 Pong!</title>
+   <link href="http://bsk.education/CS9/2016/10/05/pong/"/>
+   <updated>2016-10-05T22:54:00-04:00</updated>
+   <id>http://bsk.education/CS9/2016/10/05/🏓-pong</id>
+   <content type="html">&lt;h2 id=&quot;specifications-&quot;&gt;★ Specifications ★&lt;/h2&gt;
+
+&lt;h3 id=&quot;gameplay&quot;&gt;Gameplay&lt;/h3&gt;
+
+&lt;p&gt;The ball bounces off the upper and lower edges of the field and the players’ paddles. Each time the ball bounces off a paddle, its speed increases by a small amount. When the ball bounces off a paddle, its direction is reversed with a small random variation to add unpredictability to the game. It’s like ping pong, but for nerds. It’s like ping pong.&lt;/p&gt;
+
+&lt;h3 id=&quot;scoring&quot;&gt;Scoring&lt;/h3&gt;
+&lt;p&gt;⭐ If the ball touches the left or right edge of the field, a point is scored for the opposite player.    &lt;br /&gt;
+⭐ When one player reaches 5 points, the game is over and that player is the winner. The winner is announced on the screen and the player is given the opportunity to start a new game.&lt;/p&gt;
+
+&lt;h3 id=&quot;player-control&quot;&gt;Player Control&lt;/h3&gt;
+&lt;p&gt;⭐ Paddles are positioned a short distance away from the side they are defending, and can only move up and down, not side to side.    &lt;br /&gt;
+⭐ The player can control the paddle with your choice of keys or the mouse.   &lt;br /&gt;
+⭐ The other paddle should be controlled by THE COMPUTER&lt;/p&gt;
+
+&lt;h2 id=&quot;checklist&quot;&gt;☑️ Checklist&lt;/h2&gt;
+
+&lt;h3 id=&quot;custom-blocks&quot;&gt;Custom Blocks&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Throughout your program, you should use custom blocks to generalize common operation, like keeping score.&lt;/li&gt;
+  &lt;li&gt;Your program must include at least three custom blocks, at least one of which must take inputs.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;required-checkpoints&quot;&gt;Required Checkpoints&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Players control their paddle.&lt;/li&gt;
+  &lt;li&gt;The ball starts in the middle (INITIALIZE), moves in a random direction, and bounce.&lt;/li&gt;
+  &lt;li&gt;The ball speeds up when it hits a paddle, and resets to the middle when it hits the left or right edge&lt;/li&gt;
+  &lt;li&gt;A point is scored when the ball hits the edge on the opponent’s side of the field; the game ends when one player reaches five points; players can start a new game after the game ends&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>🔨 Custom Blocks</title>
+   <link href="http://bsk.education/CS9/2016/10/05/Custom-Blocks/"/>
+   <updated>2016-10-05T22:22:00-04:00</updated>
+   <id>http://bsk.education/CS9/2016/10/05/🔨-Custom-Blocks</id>
+   <content type="html">&lt;h2 id=&quot;learning-target&quot;&gt;🎯 Learning Target&lt;/h2&gt;
+
+&lt;p&gt;I can create my own blocks to create custom functions in SNAP.&lt;/p&gt;
+
+&lt;h2 id=&quot;do-now-in-google-classroom&quot;&gt;Do Now (in Google Classroom)&lt;/h2&gt;
+
+&lt;p&gt;Find this block… if you can…
+&lt;img src=&quot;http://bsk.education/CS9/images/SNAPscorefor.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;custom-blocks&quot;&gt;Custom Blocks&lt;/h2&gt;
+
+&lt;p&gt;How do you think this works?
+&lt;img src=&quot;http://bsk.education/CS9/images/SNAPscoreforDefinition.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;block-explore&quot;&gt;🔄 Block explore&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://bsk.education/CS9/images/SNAPstartBall.png&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;http://bsk.education/CS9/images/SNAPbounce.png&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;http://bsk.education/CS9/images/SNAPpickRandomDirection.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>🍂 Lab 2⃣.3⃣ Defining Gravity</title>
+   <link href="http://bsk.education/CS9/2016/09/29/lab-2-3-defining-gravity/"/>
+   <updated>2016-09-29T07:20:00-04:00</updated>
+   <id>http://bsk.education/CS9/2016/09/29/🍂-lab-2-3-defining-gravity</id>
+   <content type="html">&lt;p&gt;&lt;strong&gt;In this lab, you will use everything you’ve learned about loops and conditionals to construct a simplified model for gravity.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;what-goes-up&quot;&gt;What goes up…🐶&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;Create a SNAP program with a background that looks like an outside scene. Add a single sprite that looks like an object of your choice (a brick or a ball would work well) and place it so it is touching the “ground.”&lt;/li&gt;
+  &lt;li&gt;Write code for your sprite so that, when the green flag is clicked, the object moves to the top of the stage and “falls” towards the bottom at a constant speed.&lt;/li&gt;
+  &lt;li&gt;What happens in your program when the object hits the “ground”? Is that an accurate model of how gravity works on Earth?&lt;/li&gt;
+  &lt;li&gt;Modify your program so that the problem you identified in part 3 is fixed. Make your object do something appropriate when it hits the “ground.” (Making sure the ground is a unique color and making use of that color will be helpful.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;✅ &lt;strong&gt;Check: Press Green Flag, object falls from top of the screen, hits the ground, and looks like it’s hitting the ground.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;must-come-down&quot;&gt;…Must Come Down&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;Add a second sprite that looks like something that might already be on the ground when your first object is falling (like a house, a picnic table, a person, etc.). Put this new object directly below where the first object falls so that the falling object will hit it.&lt;/li&gt;
+  &lt;li&gt;What should happen when the following object hits the object on the ground? Will that happen with the model we currently have? Why or why not?&lt;/li&gt;
+  &lt;li&gt;Modify your code so that you fix the problem you identified in part 2.2. Make your falling object do something appropriate if it hits the object on the ground. Once you’ve made that work, move the falling object and make sure you didn’t break the situation when the falling object doesn’t hit something on the way down.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;✅ &lt;strong&gt;Check: Code for a collision between two objects, and a miss.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Add code so that both objects move to a random x coordinate every time the green flag is clicked. The falling object should be at the top of the stage, and the other object at the bottom. Verify that the falling object does the right thing no matter where the two objects end up relative to each other.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Add a hill to your outdoor scene and make sure that your falling object does something appropriate when it hits the hill.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;✅ &lt;strong&gt;Check: Green Flag sets random position. Object falls, collides or “rolls.”&lt;/strong&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>➿ Nested Loops</title>
-   <link href="http://bsk.education/CS9/2016/09/27/nested-loops/"/>
-   <updated>2016-09-27T21:32:00-04:00</updated>
-   <id>http://bsk.education/CS9/2016/09/27/➿-nested-loops</id>
+   <link href="http://bsk.education/CS9/2016/09/28/nested-loops/"/>
+   <updated>2016-09-28T21:32:00-04:00</updated>
+   <id>http://bsk.education/CS9/2016/09/28/➿-nested-loops</id>
    <content type="html">&lt;h2 id=&quot;learning-target&quot;&gt;🎯 Learning Target&lt;/h2&gt;
 &lt;p&gt;I can use nested loops to solve programming problems.&lt;/p&gt;
 
@@ -35,6 +235,10 @@
 &lt;p&gt;&lt;em&gt;In other words…&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://bsk.education/CS9/images/NestedLoops.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;How many times will the sprite take 20 steps?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://bsk.education/CS9/images/NestedLoopsRepeat.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
