@@ -16,6 +16,7 @@ Platform games are among the most widely recognized types of video games. Compos
 - "Hero" should perform an animated walk when you hold left or right arrow key
 
 2⃣ **Scenery** You should have scenery sprites that move based upon "Hero" traveling on the level. It is up to you to decide the level scenery, but you should meet the following requirements:
+
 - There should be at least two scenery sprites (Example: A mountain and a tree)
 You should layer these sprites relative to "Hero" and each other. For example, "Hero" should always be “in front” of any background scenery sprites
 - Scenery sprites move relative to "Hero" as she moves. For example, when you hold down the right arrow key, the background sprites should move from right to left in the stage.
@@ -23,6 +24,7 @@ You should layer these sprites relative to "Hero" and each other. For example, "
 - Scenery sprites should roll over/reappear when they hit the edge of the stage. For example, when "Hero" is walking to the right, the scenery Sprites should re-appear on the right side of the stage when they roll off the left.
 
 3⃣ **Enemy** There should be an on-ground enemy for "Hero" to contend with. Specific criteria here include:
+
 - There is at least one on-ground enemy
 - The enemy sprite moves towards "Hero", independent of whether "Hero" is moving (e.g. regardless of whether the user is pressing an arrow key).
 - The enemy sprite reappears/rolls-over when it hits the edge of the stage
@@ -32,6 +34,7 @@ You should layer these sprites relative to "Hero" and each other. For example, "
 
 ## Programming
 I am looking for you to incorporate good programming habits in your code:
+
 - Using Start and Stop blocks.
 - Making sure you initialize appropriately so that your program is repeatable.
 - Use conditionals and variables, not precisely timed waits.
@@ -39,6 +42,7 @@ I am looking for you to incorporate good programming habits in your code:
 
 ## Extensions (for the 4⃣!)
 Once you complete the above, you can extend your program. Some suggestions:
+
 - Include flying enemies for "Hero" to dodge or duck
 - Keep score based on how many objects "Hero" gets by [Hint: Use a variable and show it on the screen]
 - Have "Hero" jump to ‘grab’ an object that offers "Hero" extra points or more powerful abilities (such as jumping higher or not being killed when she runs into an enemy). The objects must appear at random times and move smoothly as "Hero" runs
