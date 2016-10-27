@@ -4,7 +4,9 @@ title: "👌 SNAP Final Project"
 date: "2016-10-24 09:12"
 ---
 
-## Overview
+![]({{ site.url }}/images/Avatar.gif)
+
+## 🤖 Overview
 Platform games are among the most widely recognized types of video games. Composing about one third of all console games at the peak of their popularity, platform games are characterized by their relative simplicity and by the common gameplay element of jumping across suspended platforms (hence the name) to avoid falling into a hazard. Platform games also typically include enemy characters, items that grant the hero special abilities ("power-ups"), and a "checkpoint" system that allows the player to restart from partway through a game or level when he or she dies.
 
 ## Details
