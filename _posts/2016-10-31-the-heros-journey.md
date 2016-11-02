@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Hero's Journey"
-date: "2016-10-30 10:42:35 -0400"
+date: "2016-10-31 10:42:35 -0400"
 ---
 
 ![](http://2.bp.blogspot.com/-iL7OZWhw_pU/USdg2ptq2HI/AAAAAAAAAgY/Bq8Ycb8MT0w/s1600/HerosJourneybyTheNovelFactory1.jpg)
