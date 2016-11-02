@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "The Scenery"
+title: "🗻 The Scenery"
 date: "2016-11-03 18:34"
 ---
 
@@ -13,6 +13,8 @@ I can use conditionals and variables to relate the movement of my "hero" and sce
 - Making sure you initialize appropriately so that your program is repeatable.
 - Use conditionals and variables, **not** precisely timed waits.
 - Add comments to your code so it is easy to understand.
+
+[Example](http://snap.berkeley.edu/snapsource/snap.html#present:Username=223bsk&ProjectName=Mario)
 
 ## By the end of today...
 _In your planning doc:_
