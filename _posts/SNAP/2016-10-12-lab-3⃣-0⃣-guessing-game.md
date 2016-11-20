@@ -1,6 +1,6 @@
 ---
 layout: "post"
-category: "Unit 1: SNAP"
+category: "Unit 1– SNAP"
 title: "Lab 3⃣.0⃣ Guessing Game"
 date: "2016-10-13 22:18"
 ---

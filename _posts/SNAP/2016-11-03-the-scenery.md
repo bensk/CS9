@@ -1,6 +1,6 @@
 ---
 layout: "post"
-category: "Unit 1: SNAP"
+category: "Unit 1– SNAP"
 title: "🗻 The Scenery"
 date: "2016-11-03 18:34"
 ---

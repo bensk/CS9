@@ -1,13 +1,13 @@
 ---
 layout: "post"
-category: "Unit 1: SNAP"
+category: "Unit 1– SNAP"
 title: "🔨 Custom Blocks"
 date: "2016-10-05 22:22"
 ---
 
 ## 🎯 Learning Target
 
-I can create my own blocks to create custom functions in SNAP. 
+I can create my own blocks to create custom functions in SNAP.
 
 ## Do Now (in Google Classroom)
 
