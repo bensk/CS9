@@ -28,12 +28,28 @@
 <!-- Post nav -->
 <hr />
 <h2>Lessons</h2>
-{% for post in site.posts %}
+
+<!-- List Categories -->
+      {% for category in site.categories %}
+
+        <b class = "lead">{{ category | first }}</b>
+      <!-- <b><a name="{{ category | first }}">{{ category | first }}</a></b> -->
+          {% for posts in category %}
+            {% for post in posts %}
+            {{ post.date | date: '%-m/%-d' }}
+              <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><br>
+            {% endfor %}
+          {% endfor %}
+      {% endfor %}
+
+      <!-- Old nav -->
+
+<!-- {% for post in site.posts %}
     <p class="lead">{{ post.date | date: '%B %d, %Y' }}<br>
       <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
 
   {% endfor %}
-</p>
+</p> -->
 <!--  -->
       <!-- <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a>
       <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>

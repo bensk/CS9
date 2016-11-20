@@ -1,5 +1,6 @@
 ---
 layout: "post"
+category: "Unit 1: SNAP"
 title: "➿ Nested Loops"
 date: "2016-09-28 21:32"
 ---

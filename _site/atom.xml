@@ -4,7 +4,7 @@
  <title>CS9</title>
  <link href="http://bsk.education/CS9/atom.xml" rel="self"/>
  <link href="http://bsk.education/CS9/"/>
- <updated>2016-10-23T09:01:18-04:00</updated>
+ <updated>2016-11-20T09:47:41-05:00</updated>
  <id>http://bsk.education/CS9</id>
  <author>
    <name>Ben Samuels-Kalow</name>
@@ -13,10 +13,334 @@
 
  
  <entry>
+   <title>🐲 The Villain</title>
+   <link href="http://bsk.education/CS9/unit%201:%20snap/2016/11/07/the-villain/"/>
+   <updated>2016-11-07T07:32:00-05:00</updated>
+   <id>http://bsk.education/CS9/unit%201:%20snap/2016/11/07/the-villain</id>
+   <content type="html">&lt;h2 id=&quot;do-now-in-classroom&quot;&gt;Do Now (In Classroom)&lt;/h2&gt;
+&lt;p&gt;What makes a good villain?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Villianc_transparent_background.svg/2000px-Villianc_transparent_background.svg.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;by-the-end-of-today&quot;&gt;By the end of today…&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;In your planning doc:&lt;/em&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Specification&lt;/th&gt;
+      &lt;th&gt;Scripts&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;There is at least one on-ground enemy&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;The enemy sprite moves towards “Hero”&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;The enemy sprite reappears/rolls-over when it hits the edge of the stage&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;The enemy sprite is animated when it is moving towards “Hero”&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;If “Hero” does not jump, she runs into the enemy and the game ends with an appropriate message&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;It should be possible for “Hero” to jump over the enemy&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>🗻 The Scenery</title>
+   <link href="http://bsk.education/CS9/unit%201:%20snap/2016/11/03/the-scenery/"/>
+   <updated>2016-11-03T18:34:00-04:00</updated>
+   <id>http://bsk.education/CS9/unit%201:%20snap/2016/11/03/the-scenery</id>
+   <content type="html">&lt;h2 id=&quot;learning-target&quot;&gt;Learning Target&lt;/h2&gt;
+&lt;p&gt;I can use conditionals and variables to relate the movement of my “hero” and scenery sprites.&lt;/p&gt;
+
+&lt;h2 id=&quot;good-programming-habits-in-your-code&quot;&gt;Good programming habits in your code:&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Using Start and Stop blocks.&lt;/li&gt;
+  &lt;li&gt;Making sure you initialize appropriately so that your program is repeatable.&lt;/li&gt;
+  &lt;li&gt;Use conditionals and variables, &lt;strong&gt;not&lt;/strong&gt; precisely timed waits.&lt;/li&gt;
+  &lt;li&gt;Add comments to your code so it is easy to understand.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://snap.berkeley.edu/snapsource/snap.html#present:Username=223bsk&amp;amp;ProjectName=Mario&quot;&gt;Example&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;by-the-end-of-today&quot;&gt;By the end of today…&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;In your planning doc:&lt;/em&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Specification&lt;/th&gt;
+      &lt;th&gt;Scripts&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;There should be at least two scenery sprites&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;You should layer these sprites relative to “Hero” and each other.&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Scenery sprites move relative to “Hero” as she moves.&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Following with the layers, scenery sprites should move at different speeds so that one seems farther away.&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Scenery sprites should roll over/reappear when they hit the edge of the stage.&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>⚔ The Hero's Journey</title>
+   <link href="http://bsk.education/CS9/unit%201:%20snap/2016/10/31/the-heros-journey/"/>
+   <updated>2016-10-31T10:42:35-04:00</updated>
+   <id>http://bsk.education/CS9/unit%201:%20snap/2016/10/31/the-heros-journey</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;http://2.bp.blogspot.com/-iL7OZWhw_pU/USdg2ptq2HI/AAAAAAAAAgY/Bq8Ycb8MT0w/s1600/HerosJourneybyTheNovelFactory1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;meeting-standards&quot;&gt;Meeting Standards&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;“Hero” should clearly “face” the right when you push the &lt;code class=&quot;highlighter-rouge&quot;&gt;→&lt;/code&gt; right arrow key&lt;/li&gt;
+  &lt;li&gt;“Hero” should clearly “face” the left when you push the &lt;code class=&quot;highlighter-rouge&quot;&gt;←&lt;/code&gt; left arrow key&lt;/li&gt;
+  &lt;li&gt;“Hero” should perform an animated walk when you hold &lt;code class=&quot;highlighter-rouge&quot;&gt;←←&lt;/code&gt;left or &lt;code class=&quot;highlighter-rouge&quot;&gt;→→&lt;/code&gt;right arrow key&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://snap.berkeley.edu/snapsource/snap.html#present:Username=ikamagate&amp;amp;ProjectName=game&quot;&gt;Example&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;exceeding-standards&quot;&gt;Exceeding Standards&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;“Hero” should jump (with gravity) when you push space bar&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;assessment&quot;&gt;Assessment&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Good programming habits in your code&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Using Start and Stop blocks.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Making sure you initialize appropriately so that your program is repeatable.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Use conditionals and variables, not precisely timed waits.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Add comments to your code so it is easy to understand.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>👌 SNAP Final Project</title>
+   <link href="http://bsk.education/CS9/unit%201:%20snap/2016/10/24/snap-final-project/"/>
+   <updated>2016-10-24T09:12:00-04:00</updated>
+   <id>http://bsk.education/CS9/unit%201:%20snap/2016/10/24/👌-snap-final-project</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;http://bsk.education/CS9/images/Avatar.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;overview&quot;&gt;🤖 Overview&lt;/h2&gt;
+&lt;p&gt;Platform games are among the most widely recognized types of video games. Composing about one third of all console games at the peak of their popularity, platform games are characterized by their relative simplicity and by the common gameplay element of jumping across suspended platforms (hence the name) to avoid falling into a hazard. Platform games also typically include enemy characters, items that grant the hero special abilities (“power-ups”), and a “checkpoint” system that allows the player to restart from partway through a game or level when he or she dies.&lt;/p&gt;
+
+&lt;h2 id=&quot;details&quot;&gt;Details&lt;/h2&gt;
+&lt;p&gt;1⃣ &lt;strong&gt;Hero&lt;/strong&gt; Your program should have a “Hero” sprite. You will be designing this character (a simple stick figure will suffice, if your art skills are like mine). “Hero” should respond to user input. Specifically:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;“Hero” should clearly “face” the right when you push the right arrow key&lt;/li&gt;
+  &lt;li&gt;“Hero” should clearly “face” the left when you push the left arrow key&lt;/li&gt;
+  &lt;li&gt;“Hero” should jump when you push space bar&lt;/li&gt;
+  &lt;li&gt;“Hero” should perform an animated walk when you hold left or right arrow key&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;2⃣ &lt;strong&gt;Scenery&lt;/strong&gt; You should have scenery sprites that move based upon “Hero” traveling on the level. It is up to you to decide the level scenery, but you should meet the following requirements:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;There should be at least two scenery sprites (Example: A mountain and a tree)
+You should layer these sprites relative to “Hero” and each other. For example, “Hero” should always be “in front” of any background scenery sprites&lt;/li&gt;
+  &lt;li&gt;Scenery sprites move relative to “Hero” as she moves. For example, when you hold down the right arrow key, the background sprites should move from right to left in the stage.&lt;/li&gt;
+  &lt;li&gt;Following with the layers, scenery sprites should move at different speeds so that one seems farther away. For example, a faraway mountain should move more slowly than a nearby tree.&lt;/li&gt;
+  &lt;li&gt;Scenery sprites should roll over/reappear when they hit the edge of the stage. For example, when “Hero” is walking to the right, the scenery Sprites should re-appear on the right side of the stage when they roll off the left.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;3⃣ &lt;strong&gt;Enemy&lt;/strong&gt; There should be an on-ground enemy for “Hero” to contend with. Specific criteria here include:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;There is at least one on-ground enemy&lt;/li&gt;
+  &lt;li&gt;The enemy sprite moves towards “Hero”, independent of whether “Hero” is moving (e.g. regardless of whether the user is pressing an arrow key).&lt;/li&gt;
+  &lt;li&gt;The enemy sprite reappears/rolls-over when it hits the edge of the stage&lt;/li&gt;
+  &lt;li&gt;The enemy sprite is animated when it is moving towards “Hero”&lt;/li&gt;
+  &lt;li&gt;If “Hero” does not jump, she runs into the enemy and the game ends with an appropriate message (HINT: you can use the “STOP ALL” block to end all scripts)&lt;/li&gt;
+  &lt;li&gt;It should be possible for “Hero” to jump over the enemy.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;programming&quot;&gt;Programming&lt;/h2&gt;
+&lt;p&gt;I am looking for you to incorporate good programming habits in your code:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Using Start and Stop blocks.&lt;/li&gt;
+  &lt;li&gt;Making sure you initialize appropriately so that your program is repeatable.&lt;/li&gt;
+  &lt;li&gt;Use conditionals and variables, not precisely timed waits.&lt;/li&gt;
+  &lt;li&gt;Add comments to your code so it is easy to understand.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;extensions-for-the-4&quot;&gt;Extensions (for the 4⃣!)&lt;/h2&gt;
+&lt;p&gt;Once you complete the above, you can extend your program. Some suggestions:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Include flying enemies for “Hero” to dodge or duck&lt;/li&gt;
+  &lt;li&gt;Keep score based on how many objects “Hero” gets by [Hint: Use a variable and show it on the screen]&lt;/li&gt;
+  &lt;li&gt;Have “Hero” jump to ‘grab’ an object that offers “Hero” extra points or more powerful abilities (such as jumping higher or not being killed when she runs into an enemy). The objects must appear at random times and move smoothly as “Hero” runs&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;rubric&quot;&gt;Rubric&lt;/h2&gt;
+&lt;p&gt;The detailed list for what I will use to grade your projects is below. Please review your projects before submitting to be sure you meet all of them.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Requirement&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Value&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;“Hero” turns to the right on right arrow key&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;5&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;“Hero” turns to the left on left arrow key&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;5&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;“Hero” performs an in-place animated walk if you hold down either arrow key&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;5&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;“Hero” jumps based on some input&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;5&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;There are least two scenery sprites&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;5&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Scenery sprites are layered with “Hero” (e.g. appropriate layering blocks are in your program)&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;5&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Scenery sprites move based on “Hero” movement&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;5&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Scenery sprites move at different speeds (e.g. far away versus near)&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;5&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Scenery sprites roll over when the fall of the stage&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;5&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;There is at least one on-ground enemy&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;5&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Enemy sprite always moves towards “Hero”&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;5&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Enemy sprite re-appears/rolls over correctly&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;5&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Enemy sprite is animated when it moves&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;5&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;If “Hero” does not jump, she runs into the enemy and the game ends nicely and properly&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;10&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;“Hero” can jump over the enemy&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;5&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Good programming #1: Program has clear start and stop&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;5&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Good programming #2: Program is repeatable and initializes state correctly&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;5&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Good programming #3: Use of comments in your code&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;5&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Good programming #4: Use conditionals and variables, not precisely timed waits.&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;5&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Extra Credit: Include flying enemies for “Hero” to dodge or duck&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;5&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Extra Credit: Keep score based on how many objects “Hero” gets by&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;5&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Extra Credit: Have “Hero” jump to ‘grab’ an object that offers “Hero” extra points or more powerful abilities. The objects must appear at random  times and move smoothly as “Hero” runs&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;10&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Extra Credit: Create Your Own Extension&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;0-10&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;TOTAL POINTS&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;100&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>Lab 4⃣.0⃣ Lists</title>
-   <link href="http://bsk.education/CS9/2016/10/21/lab-4-0-lists/"/>
+   <link href="http://bsk.education/CS9/unit%201:%20snap/2016/10/21/lab-4-0-lists/"/>
    <updated>2016-10-21T20:41:00-04:00</updated>
-   <id>http://bsk.education/CS9/2016/10/21/lab-4⃣-0⃣-lists</id>
+   <id>http://bsk.education/CS9/unit%201:%20snap/2016/10/21/lab-4⃣-0⃣-lists</id>
    <content type="html">&lt;p&gt;Create a variable for each part of speech below, and set each variable to hold a list of words that fit that part of speech. Some examples are given, but feel free to use your own.&lt;/p&gt;
 
 &lt;table&gt;
@@ -134,9 +458,9 @@ phrase” that reports a noun phrase where each word is chosen randomly from the
  
  <entry>
    <title>🔢 Lists!</title>
-   <link href="http://bsk.education/CS9/2016/10/20/lists/"/>
+   <link href="http://bsk.education/CS9/unit%201:%20snap/2016/10/20/lists/"/>
    <updated>2016-10-20T09:30:00-04:00</updated>
-   <id>http://bsk.education/CS9/2016/10/20/🔢-lists</id>
+   <id>http://bsk.education/CS9/unit%201:%20snap/2016/10/20/🔢-lists</id>
    <content type="html">&lt;h2 id=&quot;learning-targets&quot;&gt;Learning Targets&lt;/h2&gt;
 &lt;p&gt;I can create, modify, and access lists in SNAP.&lt;/p&gt;
 
@@ -189,9 +513,9 @@ phrase” that reports a noun phrase where each word is chosen randomly from the
  
  <entry>
    <title>Lab 3⃣.0⃣ Guessing Game</title>
-   <link href="http://bsk.education/CS9/2016/10/13/lab-3-0-guessing-game/"/>
+   <link href="http://bsk.education/CS9/unit%201:%20snap/2016/10/13/lab-3-0-guessing-game/"/>
    <updated>2016-10-13T22:18:00-04:00</updated>
-   <id>http://bsk.education/CS9/2016/10/13/lab-3⃣-0⃣-guessing-game</id>
+   <id>http://bsk.education/CS9/unit%201:%20snap/2016/10/13/lab-3⃣-0⃣-guessing-game</id>
    <content type="html">&lt;p&gt;In this lab, you will use conditional statements and variables to build a simple number guessing game.&lt;/p&gt;
 
 &lt;h2 id=&quot;section-1---im-thinking-of-a-number&quot;&gt;Section 1 - I’m Thinking of a Number…&lt;/h2&gt;
@@ -216,9 +540,9 @@ phrase” that reports a noun phrase where each word is chosen randomly from the
  
  <entry>
    <title>❓Unit 3: Variables</title>
-   <link href="http://bsk.education/CS9/2016/10/13/variables-guessing-game/"/>
+   <link href="http://bsk.education/CS9/unit%201:%20snap/2016/10/13/variables-guessing-game/"/>
    <updated>2016-10-13T22:04:00-04:00</updated>
-   <id>http://bsk.education/CS9/2016/10/13/❓variables-guessing-game</id>
+   <id>http://bsk.education/CS9/unit%201:%20snap/2016/10/13/❓variables-guessing-game</id>
    <content type="html">&lt;h2 id=&quot;learning-target&quot;&gt;Learning Target&lt;/h2&gt;
 &lt;p&gt;I can create variables in SNAP.&lt;/p&gt;
 
@@ -239,9 +563,9 @@ Why are they useful in programming?&lt;/p&gt;
  
  <entry>
    <title>🏓 Pong!</title>
-   <link href="http://bsk.education/CS9/2016/10/05/pong/"/>
+   <link href="http://bsk.education/CS9/unit%201:%20snap/2016/10/05/pong/"/>
    <updated>2016-10-05T22:54:00-04:00</updated>
-   <id>http://bsk.education/CS9/2016/10/05/🏓-pong</id>
+   <id>http://bsk.education/CS9/unit%201:%20snap/2016/10/05/🏓-pong</id>
    <content type="html">&lt;h2 id=&quot;specifications-&quot;&gt;★ Specifications ★&lt;/h2&gt;
 
 &lt;h3 id=&quot;gameplay&quot;&gt;Gameplay&lt;/h3&gt;
@@ -277,9 +601,9 @@ Why are they useful in programming?&lt;/p&gt;
  
  <entry>
    <title>🔨 Custom Blocks</title>
-   <link href="http://bsk.education/CS9/2016/10/05/Custom-Blocks/"/>
+   <link href="http://bsk.education/CS9/unit%201:%20snap/2016/10/05/Custom-Blocks/"/>
    <updated>2016-10-05T22:22:00-04:00</updated>
-   <id>http://bsk.education/CS9/2016/10/05/🔨-Custom-Blocks</id>
+   <id>http://bsk.education/CS9/unit%201:%20snap/2016/10/05/🔨-Custom-Blocks</id>
    <content type="html">&lt;h2 id=&quot;learning-target&quot;&gt;🎯 Learning Target&lt;/h2&gt;
 
 &lt;p&gt;I can create my own blocks to create custom functions in SNAP.&lt;/p&gt;
@@ -304,9 +628,9 @@ Why are they useful in programming?&lt;/p&gt;
  
  <entry>
    <title>🍂 Lab 2⃣.3⃣ Defining Gravity</title>
-   <link href="http://bsk.education/CS9/2016/09/29/lab-2-3-defining-gravity/"/>
+   <link href="http://bsk.education/CS9/unit%201:%20snap/2016/09/29/lab-2-3-defining-gravity/"/>
    <updated>2016-09-29T07:20:00-04:00</updated>
-   <id>http://bsk.education/CS9/2016/09/29/🍂-lab-2-3-defining-gravity</id>
+   <id>http://bsk.education/CS9/unit%201:%20snap/2016/09/29/🍂-lab-2-3-defining-gravity</id>
    <content type="html">&lt;p&gt;&lt;strong&gt;In this lab, you will use everything you’ve learned about loops and conditionals to construct a simplified model for gravity.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;what-goes-up&quot;&gt;What goes up…🐶&lt;/h2&gt;
@@ -343,9 +667,9 @@ Why are they useful in programming?&lt;/p&gt;
  
  <entry>
    <title>➿ Nested Loops</title>
-   <link href="http://bsk.education/CS9/2016/09/28/nested-loops/"/>
+   <link href="http://bsk.education/CS9/unit%201:%20snap/2016/09/28/nested-loops/"/>
    <updated>2016-09-28T21:32:00-04:00</updated>
-   <id>http://bsk.education/CS9/2016/09/28/➿-nested-loops</id>
+   <id>http://bsk.education/CS9/unit%201:%20snap/2016/09/28/➿-nested-loops</id>
    <content type="html">&lt;h2 id=&quot;learning-target&quot;&gt;🎯 Learning Target&lt;/h2&gt;
 &lt;p&gt;I can use nested loops to solve programming problems.&lt;/p&gt;
 
@@ -397,9 +721,9 @@ Why are they useful in programming?&lt;/p&gt;
  
  <entry>
    <title>🔁 Unit 2: Loops</title>
-   <link href="http://bsk.education/CS9/2016/09/25/unit-2-loops/"/>
+   <link href="http://bsk.education/CS9/unit%201:%20snap/2016/09/25/unit-2-loops/"/>
    <updated>2016-09-25T21:38:00-04:00</updated>
-   <id>http://bsk.education/CS9/2016/09/25/🔁-unit-2-loops</id>
+   <id>http://bsk.education/CS9/unit%201:%20snap/2016/09/25/🔁-unit-2-loops</id>
    <content type="html">&lt;h2 id=&quot;learning-target&quot;&gt;🎯 Learning Target&lt;/h2&gt;
 &lt;p&gt;I can explain that iteration is the repetition of part of an algorithm until a condition is met or for a specified number of times.&lt;/p&gt;
 
@@ -455,9 +779,9 @@ Add code to your program to draw the extra shapes below. Follow all the original
  
  <entry>
    <title>🔚 Unit 1 Final Project</title>
-   <link href="http://bsk.education/CS9/2016/09/20/unit-1-final-project/"/>
+   <link href="http://bsk.education/CS9/unit%201:%20snap/2016/09/20/unit-1-final-project/"/>
    <updated>2016-09-20T23:25:00-04:00</updated>
-   <id>http://bsk.education/CS9/2016/09/20/unit-1-final-project</id>
+   <id>http://bsk.education/CS9/unit%201:%20snap/2016/09/20/unit-1-final-project</id>
    <content type="html">&lt;p&gt;&lt;strong&gt;You will create a short animation in SNAP depicting a scene.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;This could be a scene from a book/movie/play, depict lyrics from your favorite song, or your own unique animations&lt;/p&gt;
@@ -594,9 +918,9 @@ Add code to your program to draw the extra shapes below. Follow all the original
  
  <entry>
    <title>🐶🐲🏃 First Animation</title>
-   <link href="http://bsk.education/CS9/2016/09/18/first-animation/"/>
+   <link href="http://bsk.education/CS9/unit%201:%20snap/2016/09/18/first-animation/"/>
    <updated>2016-09-18T21:34:00-04:00</updated>
-   <id>http://bsk.education/CS9/2016/09/18/first-animation</id>
+   <id>http://bsk.education/CS9/unit%201:%20snap/2016/09/18/first-animation</id>
    <content type="html">&lt;p&gt;In this lab, you will use costumes and movement to create simple SNAP animations.&lt;/p&gt;
 
 &lt;h2 id=&quot;walk-the-dog&quot;&gt;🐶 Walk the Dog&lt;/h2&gt;
@@ -639,9 +963,9 @@ Add code to your program to draw the extra shapes below. Follow all the original
  
  <entry>
    <title>Lab 1⃣.1⃣</title>
-   <link href="http://bsk.education/CS9/2016/09/15/lab-1-1/"/>
+   <link href="http://bsk.education/CS9/unit%201:%20snap/2016/09/15/lab-1-1/"/>
    <updated>2016-09-15T07:32:00-04:00</updated>
-   <id>http://bsk.education/CS9/2016/09/15/lab-1⃣-1⃣</id>
+   <id>http://bsk.education/CS9/unit%201:%20snap/2016/09/15/lab-1⃣-1⃣</id>
    <content type="html">&lt;h1 id=&quot;geometric-fun-times&quot;&gt;Geometric Fun Times™&lt;/h1&gt;
 
 &lt;p&gt;In this lab, you will write your first SNAP programs to draw some simple shapes on the stage.&lt;/p&gt;
@@ -705,9 +1029,9 @@ Add code to your program to draw the extra shapes below. Follow all the original
  
  <entry>
    <title>Lab 1⃣</title>
-   <link href="http://bsk.education/CS9/2016/09/13/lab-1/"/>
+   <link href="http://bsk.education/CS9/unit%201:%20snap/2016/09/13/lab-1/"/>
    <updated>2016-09-13T20:51:00-04:00</updated>
-   <id>http://bsk.education/CS9/2016/09/13/lab-1⃣</id>
+   <id>http://bsk.education/CS9/unit%201:%20snap/2016/09/13/lab-1⃣</id>
    <content type="html">&lt;h2 id=&quot;learning-targets&quot;&gt;🎯 Learning Targets&lt;/h2&gt;
 &lt;p&gt;I can explain in writing the expected outcome of a piece of code.   &lt;br /&gt;
 I can complete a CS lab to specification.&lt;/p&gt;
@@ -730,9 +1054,9 @@ I can complete a CS lab to specification.&lt;/p&gt;
  
  <entry>
    <title>Day 0⃣</title>
-   <link href="http://bsk.education/CS9/2016/09/08/day-1/"/>
+   <link href="http://bsk.education/CS9/unit%201:%20snap/2016/09/08/day-1/"/>
    <updated>2016-09-08T22:19:56-04:00</updated>
-   <id>http://bsk.education/CS9/2016/09/08/day-1</id>
+   <id>http://bsk.education/CS9/unit%201:%20snap/2016/09/08/day-1</id>
    <content type="html">&lt;h2 id=&quot;learning-target&quot;&gt;🎯 Learning Target&lt;/h2&gt;
 &lt;p&gt;I can create a SNAP login and write functional code in SNAP.
 I can define &lt;em&gt;algorithm&lt;/em&gt; and give examples.&lt;/p&gt;
@@ -794,9 +1118,9 @@ I can define &lt;em&gt;algorithm&lt;/em&gt; and give examples.&lt;/p&gt;
  
  <entry>
    <title>🎉Hello World</title>
-   <link href="http://bsk.education/CS9/2016/09/08/hello-world/"/>
+   <link href="http://bsk.education/CS9/unit%201:%20snap/2016/09/08/hello-world/"/>
    <updated>2016-09-08T00:00:00-04:00</updated>
-   <id>http://bsk.education/CS9/2016/09/08/hello-world</id>
+   <id>http://bsk.education/CS9/unit%201:%20snap/2016/09/08/hello-world</id>
    <content type="html">&lt;p&gt;🎯 &lt;strong&gt;Learning Target:&lt;/strong&gt; I can describe the role of creativity in Computer Science.&lt;/p&gt;
 
 &lt;p&gt;👉 &lt;strong&gt;Do Now:&lt;/strong&gt; Why does the new iPhone 7 &lt;strong&gt;not&lt;/strong&gt; have a headphone jack?&lt;/p&gt;

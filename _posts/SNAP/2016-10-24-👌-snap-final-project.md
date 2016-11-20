@@ -1,5 +1,6 @@
 ---
 layout: "post"
+category: "Unit 1: SNAP"
 title: "👌 SNAP Final Project"
 date: "2016-10-24 09:12"
 ---

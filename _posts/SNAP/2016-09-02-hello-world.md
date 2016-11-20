@@ -1,7 +1,9 @@
 ---
 title: "\U0001F389Hello World"
 date: '2016-09-08 00:00:00'
-layout: post
+layout: "post"
+category: "Unit 1: SNAP"
+
 ---
 
 🎯 **Learning Target:** I can describe the role of creativity in Computer Science.
