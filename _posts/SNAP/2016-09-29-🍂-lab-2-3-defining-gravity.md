@@ -1,6 +1,6 @@
 ---
 layout: "post"
-category: "Unit 1– SNAP"
+category: "SNAP"
 title: "🍂 Lab 2⃣.3⃣ Defining Gravity"
 date: "2016-09-29 07:20"
 ---

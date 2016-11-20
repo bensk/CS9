@@ -1,6 +1,6 @@
 ---
 layout: "post"
-category: "Unit 1– SNAP"
+category: "SNAP"
 title: "🔨 Custom Blocks"
 date: "2016-10-05 22:22"
 ---

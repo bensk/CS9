@@ -1,6 +1,6 @@
 ---
 layout: "post"
-category: "Unit 1– SNAP"
+category: "SNAP"
 title: "❓Unit 3: Variables"
 date: "2016-10-13 22:04"
 ---

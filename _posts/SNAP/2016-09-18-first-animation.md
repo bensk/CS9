@@ -1,6 +1,6 @@
 ---
 layout: "post"
-category: "Unit 1– SNAP"
+category: "SNAP"
 title: "🐶🐲🏃 First Animation"
 date: "2016-09-18 21:34"
 ---
