@@ -63,6 +63,11 @@ Some Keywords in Python are :  `print`, `False`, `True`, `else`, `if`
 
 
 ## Python Review
+
+[Join our repl classroom](https://repl.it/classroom/invite/B6s697b).
+
+<iframe frameborder="0" width="100%" height="600px" src="https://repl.it/student_embed/assignment/14573/d2299595dd28df595fd156f8c9507666"></iframe>
+
 - Create a variable called `my_name`  and store your name in it. Then print the variable.
 - Create a variable called `multiply` that is the product of a negative number and a positive number with a decimal (not a whole number). Print the variable.
 - Store a message in a variable. Then print the message.
