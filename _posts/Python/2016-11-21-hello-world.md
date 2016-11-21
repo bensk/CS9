@@ -62,9 +62,9 @@ Some Keywords in Python are :  `print`, `False`, `True`, `else`, `if`
 | Boolean  | Only two values  | `True`, `False`, `3>42`, `3.42>-10.02`  |
 
 
-## Python Review
+## ⏪ Python Review
 
-[Join our repl classroom](https://repl.it/classroom/invite/B6s697b).
+👉 [Join our repl classroom](https://repl.it/classroom/invite/B6s697b).
 
 - Create a variable called `my_name`  and store your name in it. Then print the variable.
 - Create a variable called `multiply` that is the product of a negative number and a positive number with a decimal (not a whole number). Print the variable.
