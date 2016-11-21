@@ -12,4 +12,5 @@ category: "Python"
 ![]({{ site.url }}/images/SnapPython.png)
 
 ## `return` to Python
-![](http://i.imgur.com/zPiXvYS.gif)
+_Remember this?_
+<script src="//repl.it/embed/E3hW/0.js"></script>
