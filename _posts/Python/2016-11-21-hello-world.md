@@ -7,4 +7,9 @@ category: "Python"
 
 🎯 **Learning Target:** I can describe the role of creativity in Computer Science.
 
-👉 **Do Now:** Why does the new iPhone 7 **not** have a headphone jack?
+👉 **Do Now:** Fill in as much of this Venn Diagram as you can:
+
+![]({{ site.url }}/images/SnapPython.png)
+
+## `return` to Python
+![](https://media.giphy.com/media/BF4npXkyM4ZsA/giphy.gif)
