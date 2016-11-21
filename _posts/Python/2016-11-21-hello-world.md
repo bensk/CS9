@@ -13,4 +13,9 @@ category: "Python"
 
 ## `return` to Python
 _Remember this?_
+
 <script src="//repl.it/embed/E3hW/3.js"></script>
+
+```python
+# Why does it say 'Let's review Python'?
+``` 
