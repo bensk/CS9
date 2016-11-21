@@ -12,4 +12,4 @@ category: "Python"
 ![]({{ site.url }}/images/SnapPython.png)
 
 ## `return` to Python
-![](https://media.giphy.com/media/BF4npXkyM4ZsA/giphy.gif)
+![](http://i.imgur.com/zPiXvYS.gif)
