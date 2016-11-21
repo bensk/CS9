@@ -53,6 +53,7 @@ Some Keywords in Python are :  `print`, `False`, `True`, `else`, `if`
 - Python is **CASE SENSITIVE** which means `Num_marbles = 10` and `num_marbles = 10` are different.
 
 ### Datatypes
+
 |Type  | Description  | Example  |
 |---|---|---|
 | String  | Any characters inside `""`  | `This is a string.`  |
