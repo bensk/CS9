@@ -64,3 +64,6 @@ name = first_name.title() + last_name.title()
 print(name)
 # What's the mistake?
 ```
+
+## 💪️ Practice!
+👉 Go to [repl](https://repl.it/data/lti/assignments/15094).
