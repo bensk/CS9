@@ -8,7 +8,7 @@ category: "Python"
 ## 🎯 Learning Target
 I can write strings and utilize string methods in Python
 
-## Do Now
+## Do Now (in Google Classroom)
 ```python
 # What prints if you run this code?
 print("2+1")
