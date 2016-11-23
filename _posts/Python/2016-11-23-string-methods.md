@@ -93,6 +93,7 @@ Separate each exercise with a line space and add a comment above each to tell me
 
 For example:
 This code -->   
+
 ```python
 print("\tThis creates a tab.")       
 ```
@@ -104,6 +105,7 @@ Find another quote and print the quote and the author but tab the author's name 
 
 #### ⭐⭐⭐
 This line of code:
+
 ```python
 print("Languages:\n\Python\nC\nJavaScript")`
 ```
