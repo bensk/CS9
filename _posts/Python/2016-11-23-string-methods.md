@@ -66,4 +66,4 @@ print(name)
 ```
 
 ## Practice!
-👉 Go to [repl](https://repl.it/data/lti/assignments/15094)!
+👉 Go to [repl](http://repl.it/)!
