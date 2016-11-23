@@ -107,7 +107,7 @@ Find another quote and print the quote and the author but tab the author's name 
 This line of code:
 
 ```python
-print("Languages:\n\Python\nC\nJavaScript")`
+print("Languages:\n\Python\nC\nJavaScript")
 ```
 
 Creates this -->
