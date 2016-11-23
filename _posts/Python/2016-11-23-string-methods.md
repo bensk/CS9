@@ -65,5 +65,5 @@ print(name)
 # What's the mistake?
 ```
 
-## 💪️ Practice!
-👉 Go to [repl](https://repl.it/data/lti/assignments/15094).
+## Practice!
+👉 Go to [repl](https://repl.it/data/lti/assignments/15094)!
