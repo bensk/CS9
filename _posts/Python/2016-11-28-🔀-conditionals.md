@@ -9,6 +9,11 @@ category: "Python"
 - I can write conditionals in Python using `if` and `else`.
 - I can predict the output of conditionals in Python.
 
+## Do Now (in Classroom)
+What data type is **required** for a conditional?
+
+<small>Hint: The answer does **not** depend on the programming language– it will be the same type of data in Python, SNAP, JavaScript, etc...</small>
+
 ## Conditionals
 ```python
 if #something true
