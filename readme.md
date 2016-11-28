@@ -6,9 +6,9 @@ layout: page
 # Advanced Computer Science
 Welcome to a new year of Computer Science. This class is based on the Introduction to Computer Science at the University of Berkeley, and is designed to prepare you to take college-level computer science, and expand your opportunities to explore fields in science, technology, engineering, and beyond. This year, we are partnering with TEALS (Technology Education and Literacy in Schools), which will bring engineers into the classroom, to give you a rigorous and real-world experience.
 
-| Instructor    |Email         |
-|:----------------------|:------------------------------|
-| Mr. S-K     |[bsk@ms223.org](mailto:bsk@ms223.org)              |
+| Instructor | Email                                 |
+|:-----------|:--------------------------------------|
+| Mr. S-K    | [bsk@ms223.org](mailto:bsk@ms223.org) |
 
 ## Attendance
 In order to keep up with concepts, content, and skills, students are expected to attend every class and be on time.
@@ -39,11 +39,21 @@ To help encourage your punctuality, TEALS has provided prizes for a weekly raffl
 
 ## Grades
 
-| Category          | Examples                                                                                               | Weight |
-|:------------------|:-------------------------------------------------------------------------------------------------------|:------:|
-| Major Assessments | Major projects, Culture Day Presentations, End of Unit Assessments                                     |  50%   |
-| Minor Assessments | Classwork, quizzes, participation                                                                      |  40%   |
-| Homework          | You will have homework that requires your Chromebook. |  10%   |
+| Category          | Examples                                                           | Weight |
+|:------------------|:-------------------------------------------------------------------|:------:|
+| Major Assessments | Major projects, Culture Day Presentations, End of Unit Assessments |  50%   |
+| Minor Assessments | Classwork, quizzes, participation                                  |  40%   |
+| Homework          | You will have homework that requires your Chromebook.              |  10%   |
+
+```python
+while grading == True:
+    if SK == "😁":
+        you = "👍"
+    elif SK == "🤔":
+        you == "🙏"
+    elif SK == "😡":
+        you == "👋"
+```
 
 ## Classwork
 The vast majority of your work will be coding assignments, using SNAP and Python. Those are to be submitted through Google Classroom. Your work will be graded by one of the three instructors for this course. Late work will automatically be deducted a point: a 4 becomes a 3, and so on.
