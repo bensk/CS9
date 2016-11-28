@@ -71,3 +71,21 @@ print(1040934 % 2)
 ```
 
 Before you start calculating, what are the **only** possibilities of each **modulo** operation?
+
+## Grouping
+**Finish `"String Methods"` (or submit in repl):**
+- Alyssa
+- Annalis
+- Anthony
+- Atiba
+- Brianna
+- Carlos
+- Dallana
+- David
+- Devonte
+- Emarie
+- Jeremiah
+- Jose
+- Kathryn
+- Matthew
+- Michael

@@ -29,7 +29,7 @@ This is a high school class, so I will keep it short. I expect the same core val
 5. Reflection: Make new mistakes
 
 
-## Tests & Quizzes
+## ⭐ Tests & Quizzes
 Tests will be given at the end of each unit to assess your knowledge of the material.
 Students can expect to have frequent open-notebook quizzes. Students who are absent must bring in a note to excuse their absence in order to make up the test/quiz within a week of their return.
 
