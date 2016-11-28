@@ -1,7 +1,7 @@
 ---
 layout: "post"
 title: "🔀 Conditionals"
-date: "2016-11-27 19:49"
+date: "2016-11-28 19:49"
 category: "Python"
 ---
 
