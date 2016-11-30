@@ -50,15 +50,15 @@ What will print after each conditional is run?
 """
 # Number 1:
 if 5<2:
-    print "I am right"
+    print("I am right")
 else:
-    print "I am wrong"
+    print("I am wrong")
 
     # Number 2:
 if 5>2:
-    print "I am right"
+    print("I am right")
 else:
-    print "I am wrong"
+    print("I am wrong")
 ```
 
 ## `if` even...
@@ -79,6 +79,7 @@ Before you start calculating, what are the **only** possibilities of each **modu
 
 ## Grouping
 **Finish `"String Methods"` (or submit in repl):**
+
 - Alyssa
 - Annalis
 - Anthony
