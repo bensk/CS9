@@ -4,7 +4,7 @@
  <title>CS9</title>
  <link href="http://bsk.education/CS9/atom.xml" rel="self"/>
  <link href="http://bsk.education/CS9/"/>
- <updated>2016-11-20T10:01:57-05:00</updated>
+ <updated>2016-11-30T19:12:35-05:00</updated>
  <id>http://bsk.education/CS9</id>
  <author>
    <name>Ben Samuels-Kalow</name>
@@ -13,11 +13,406 @@
 
  
  <entry>
-   <title>Hello World</title>
-   <link href="http://bsk.education/CS9/2016/11/21/hello-world/"/>
+   <title>⚔ Choose your own adventure</title>
+   <link href="http://bsk.education/CS9/python/2016/12/01/choose-your-own-adventure/"/>
+   <updated>2016-12-01T19:11:00-05:00</updated>
+   <id>http://bsk.education/CS9/python/2016/12/01/⚔-choose-your-own-adventure</id>
+   <content type="html">&lt;h2 id=&quot;take-a-look-at-this&quot;&gt;Take a look at this:&lt;/h2&gt;
+
+&lt;script src=&quot;//repl.it/embed/EcZh/0.js&quot;&gt;&lt;/script&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>🔀 Conditionals</title>
+   <link href="http://bsk.education/CS9/python/2016/11/30/conditionals/"/>
+   <updated>2016-11-30T19:49:00-05:00</updated>
+   <id>http://bsk.education/CS9/python/2016/11/30/🔀-conditionals</id>
+   <content type="html">&lt;h2 id=&quot;learning-targets&quot;&gt;Learning Targets&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;I can write conditionals in Python using &lt;code class=&quot;highlighter-rouge&quot;&gt;if&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;else&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;I can predict the output of conditionals in Python.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;do-now-in-classroom&quot;&gt;Do Now (in Classroom)&lt;/h2&gt;
+&lt;p&gt;What data type is &lt;strong&gt;required&lt;/strong&gt; for a conditional?&lt;/p&gt;
+
+&lt;p&gt;&lt;small&gt;Hint: The answer does &lt;strong&gt;not&lt;/strong&gt; depend on the programming language– it will be the same type of data in Python, SNAP, JavaScript, etc…&lt;/small&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;conditionals&quot;&gt;Conditionals&lt;/h2&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;#something true&lt;/span&gt;
+    &lt;span class=&quot;c&quot;&gt;# run this indented code&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;c&quot;&gt;#run this indented code&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Quick check&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# What&#39;s the difference between&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;school&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;F&amp;amp;T&quot;&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;#and&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;223&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;223&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# what about...&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;223&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;F&amp;amp;T&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;python-comparison-operators&quot;&gt;Python Comparison Operators&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Operator&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Description&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Example&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;==&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;equal to&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;x == 2&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;!&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;not equal to&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;y != 3&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&amp;gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;greater than&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;4 &amp;gt; 3&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&amp;lt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;less than&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;1 &amp;lt; 1&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&amp;gt;=&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;greater than or equal to&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;x &amp;gt;= 2&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&amp;lt;=&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;less than or equal to&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;y &amp;lt;= 3&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;s&quot;&gt;&quot;&quot;&quot;
+What will print after each conditional is run?
+&quot;&quot;&quot;&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# Number 1:&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;I am right&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;I am wrong&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+    &lt;span class=&quot;c&quot;&gt;# Number 2:&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;I am right&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;I am wrong&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;if-even&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;if&lt;/code&gt; even…&lt;/h2&gt;
+&lt;p&gt;How can we tell if a number is even or odd?&lt;/p&gt;
+
+&lt;h1 id=&quot;section&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;%&lt;/code&gt;&lt;/h1&gt;
+&lt;p&gt;This is &lt;strong&gt;not&lt;/strong&gt; the percentage sign. I mean, it is, but in Python, it means &lt;strong&gt;modulo&lt;/strong&gt; or &lt;strong&gt;mod&lt;/strong&gt;. What?&lt;/p&gt;
+
+&lt;p&gt;It divides one number by another and returns the remainder. Like this:&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1040934&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1040934&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Before you start calculating, what are the &lt;strong&gt;only&lt;/strong&gt; possibilities of each &lt;strong&gt;modulo&lt;/strong&gt; operation?&lt;/p&gt;
+
+&lt;h2 id=&quot;grouping&quot;&gt;Grouping&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Finish &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;String Methods&quot;&lt;/code&gt; (or submit in repl):&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Alyssa&lt;/li&gt;
+  &lt;li&gt;Annalis&lt;/li&gt;
+  &lt;li&gt;Anthony&lt;/li&gt;
+  &lt;li&gt;Atiba&lt;/li&gt;
+  &lt;li&gt;Brianna&lt;/li&gt;
+  &lt;li&gt;Carlos&lt;/li&gt;
+  &lt;li&gt;Dallana&lt;/li&gt;
+  &lt;li&gt;David&lt;/li&gt;
+  &lt;li&gt;Devonte&lt;/li&gt;
+  &lt;li&gt;Emarie&lt;/li&gt;
+  &lt;li&gt;Jeremiah&lt;/li&gt;
+  &lt;li&gt;Jose&lt;/li&gt;
+  &lt;li&gt;Kathryn&lt;/li&gt;
+  &lt;li&gt;Matthew&lt;/li&gt;
+  &lt;li&gt;Michael&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>❝String Methods❞</title>
+   <link href="http://bsk.education/CS9/python/2016/11/23/string-methods/"/>
+   <updated>2016-11-23T21:10:00-05:00</updated>
+   <id>http://bsk.education/CS9/python/2016/11/23/string-methods</id>
+   <content type="html">&lt;h2 id=&quot;learning-target&quot;&gt;🎯 Learning Target&lt;/h2&gt;
+&lt;p&gt;I can write strings and utilize string methods in Python&lt;/p&gt;
+
+&lt;h2 id=&quot;do-now-in-google-classroom&quot;&gt;Do Now (in Google Classroom)&lt;/h2&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# What prints if you run this code?&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;2+1&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;2+1&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;2+1&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;strings--things&quot;&gt;Strings &amp;amp; Things&lt;/h2&gt;
+&lt;p&gt;Strings are any characters inside quotes.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;This is a string with double quotes&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;This is a string with single quotes&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# doesn&#39;t matter which quotes you use as long as you are consistent.&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;Python can’t &lt;strong&gt;evaluate&lt;/strong&gt; anything inside of a string, so &lt;code class=&quot;highlighter-rouge&quot;&gt;print(&#39;1+2&#39;)&lt;/code&gt; becomes: &lt;code class=&quot;highlighter-rouge&quot;&gt;&#39;1+2&#39;&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;What is the proper way to print the statement below:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;It’s a Wonderful Life!&lt;/code&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;  &lt;span class=&quot;err&quot;&gt;“&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;It&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;’&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Wonderful&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Life&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;!’&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;‘&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;It&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;’&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Wonderful&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Life&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;!’&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;It&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;’&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Wonderful&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Life&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;!&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;“&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;It&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;’&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Wonderful&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Life&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;!”&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;!--hiiiiii  --&gt;
+&lt;p&gt;## String Methods
+Built-in actions you can use on string data.&lt;/p&gt;
+
+&lt;p&gt;For example:&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;sk&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;upper&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;message&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;WHY ARE YOU YELLING!&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;message&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lower&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;book&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;to kill a mockingbird&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;book&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;.upper()&lt;/code&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;.title()&lt;/code&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;.lower()&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;We can also add strings together. In Python, this is called &lt;strong&gt;concatenation&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;first_name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&#39;grace&#39;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;last_name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&#39;hopper&#39;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;first_name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;last_name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# What&#39;s the mistake?&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;practice&quot;&gt;Practice!&lt;/h2&gt;
+&lt;p&gt;👉 Go to &lt;a href=&quot;http://repl.it/&quot;&gt;repl&lt;/a&gt;!&lt;/p&gt;
+
+&lt;h3 id=&quot;organization&quot;&gt;Organization&lt;/h3&gt;
+
+&lt;p&gt;Separate each exercise with a line space and add a comment above each to tell me what you are doing.&lt;/p&gt;
+
+&lt;h3 id=&quot;grading-policy&quot;&gt;Grading Policy&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;2 ⭐, 1 ⭐⭐ = 80&lt;/li&gt;
+  &lt;li&gt;2 ⭐, 2 ⭐⭐ = 85&lt;/li&gt;
+  &lt;li&gt;2 ⭐, 2 ⭐⭐, 1 ⭐⭐⭐ = 90&lt;/li&gt;
+  &lt;li&gt;2 ⭐, 2 ⭐⭐, 2 ⭐⭐ = 100&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;section&quot;&gt;⭐&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;Option 1:&lt;/strong&gt; Store a person’s name in a variable. Print the name in uppercase, lowercase and title case.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Option 2:&lt;/strong&gt; Find a quote from a famous person that you admire. Print the quote and the name of it’s author.&lt;/p&gt;
+
+&lt;h4 id=&quot;section-1&quot;&gt;⭐⭐&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;Option 1:&lt;/strong&gt; Find a quote from a famous person that you admire and store it in a variable called message. Store the name of the author in a variable called famous_person. Print the quote and the name of it’s author using concatenation. It should look like:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Steve Jobs: &quot;_____________quote_here_____________&quot;. &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Option 2:&lt;/strong&gt; In order to use a tab in your display you need to add \t in front of what you want printed.&lt;/p&gt;
+
+&lt;p&gt;For example:
+This code –&amp;gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\t&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;This creates a tab.&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;       
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;will end up looking like –&amp;gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;    This creates a tab.&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Find another quote and print the quote and the author but tab the author’s name on a new line after the quote.&lt;/p&gt;
+
+&lt;h4 id=&quot;section-2&quot;&gt;⭐⭐⭐&lt;/h4&gt;
+&lt;p&gt;This line of code:&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Languages:&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Python&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;C&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;JavaScript&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Creates this –&amp;gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Languages:
+Python
+C
+JavaScript
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Option 1:&lt;/strong&gt; Utilize &lt;code class=&quot;highlighter-rouge&quot;&gt;\n&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;\t&lt;/code&gt;  to create a shopping list with just one print statement.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Option 2:&lt;/strong&gt; Utilize &lt;code class=&quot;highlighter-rouge&quot;&gt;\n&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;\t&lt;/code&gt;  to recreate the statement in the picture below using just one print statement. Each word must be printed on the same line and in approximately the same position as it appears in the picture.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>🎉 Hello again, World!</title>
+   <link href="http://bsk.education/CS9/python/2016/11/21/hello-world/"/>
    <updated>2016-11-21T10:01:00-05:00</updated>
-   <id>http://bsk.education/CS9/2016/11/21/hello-world</id>
-   <content type="html">
+   <id>http://bsk.education/CS9/python/2016/11/21/hello-world</id>
+   <content type="html">&lt;h2 id=&quot;learning-target&quot;&gt;🎯 Learning Target&lt;/h2&gt;
+
+&lt;p&gt;I can create variables in Python.&lt;/p&gt;
+
+&lt;h2 id=&quot;do-now&quot;&gt;👉 Do Now&lt;/h2&gt;
+&lt;p&gt;Fill in as much of this Venn Diagram as you can:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://bsk.education/CS9/images/SnapPython.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;return-to-python&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;return&lt;/code&gt; to Python&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Remember this?&lt;/em&gt;&lt;/p&gt;
+
+&lt;script src=&quot;//repl.it/embed/E3hW/3.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Why does it say &lt;code class=&quot;highlighter-rouge&quot;&gt;Let&#39;s review Python&lt;/code&gt;?&lt;/p&gt;
+
+&lt;p&gt;Last year, we used Python &lt;strong&gt;2&lt;/strong&gt;. This year, we will be using Python &lt;strong&gt;3&lt;/strong&gt;. There are a few important differences, but for today, the most important is this:&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# in PYthon 3, print is a FUNCTION:&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;hello there&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;#   ^ parentheses ^&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;variables&quot;&gt;Variables&lt;/h2&gt;
+&lt;p&gt;Store a variable under a name.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Name&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;ONE Equal sign&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Value&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;name&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;=&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;SK&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;grade&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;=&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;9&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;rules-for-variable-name&quot;&gt;Rules for Variable Name&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Contains letters, numbers,  and underscores ( _ )&lt;/li&gt;
+  &lt;li&gt;Cannot start with number&lt;/li&gt;
+  &lt;li&gt;Cannot contain spaces  (you can use underscores used to separate words)&lt;/li&gt;
+  &lt;li&gt;Cannot use &lt;strong&gt;keywords&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;words&quot;&gt;🔑words&lt;/h3&gt;
+&lt;p&gt;Each programming language has a set of words that are &lt;em&gt;reserved&lt;/em&gt; by the language for programmatic purposes.&lt;/p&gt;
+
+&lt;p&gt;Some Keywords in Python are :  &lt;code class=&quot;highlighter-rouge&quot;&gt;print&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;False&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;True&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;else&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;if&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;rules-of--for-variable-names&quot;&gt;Rules of 👍 for Variable Names&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Pick names that make sense. Someone &lt;em&gt;besides you&lt;/em&gt; should be able to figure out what your variables mean.&lt;/li&gt;
+  &lt;li&gt;Use underscores to separate words&lt;/li&gt;
+  &lt;li&gt;Python is &lt;strong&gt;CASE SENSITIVE&lt;/strong&gt; which means &lt;code class=&quot;highlighter-rouge&quot;&gt;Num_marbles = 10&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;num_marbles = 10&lt;/code&gt; are different.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;datatypes&quot;&gt;Datatypes&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Type&lt;/th&gt;
+      &lt;th&gt;Description&lt;/th&gt;
+      &lt;th&gt;Example&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;String&lt;/td&gt;
+      &lt;td&gt;Any characters inside &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;&quot;&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;This is a string.&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Integer&lt;/td&gt;
+      &lt;td&gt;Whole numbers&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;3&lt;/code&gt;,&lt;code class=&quot;highlighter-rouge&quot;&gt;42&lt;/code&gt;,&lt;code class=&quot;highlighter-rouge&quot;&gt;-1002&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Float&lt;/td&gt;
+      &lt;td&gt;Numbers with decimals.&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;3.42&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;-10.02&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Boolean&lt;/td&gt;
+      &lt;td&gt;Only two values&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;True&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;False&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;3&amp;gt;42&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;3.42&amp;gt;-10.02&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;python-review&quot;&gt;⏪ Python Review&lt;/h2&gt;
+
+&lt;p&gt;👉 &lt;a href=&quot;https://repl.it/classroom/invite/B6s697b&quot;&gt;Join our repl classroom&lt;/a&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Create a variable called &lt;code class=&quot;highlighter-rouge&quot;&gt;my_name&lt;/code&gt;  and store your name in it. Then print the variable.&lt;/li&gt;
+  &lt;li&gt;Create a variable called &lt;code class=&quot;highlighter-rouge&quot;&gt;multiply&lt;/code&gt; that is the product of a negative number and a positive number with a decimal (not a whole number). Print the variable.&lt;/li&gt;
+  &lt;li&gt;Store a message in a variable. Then print the message.&lt;/li&gt;
+  &lt;li&gt;Create a variable that stores a Boolean value. Print the variable.&lt;/li&gt;
+  &lt;li&gt;Create a variable that stores a message. Then store another message in the same variable. Print the message.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;section&quot;&gt;🌶&lt;/h3&gt;
+&lt;p&gt;Create a variable that is the quotient of two other variables (hint: you will need to store values in that variable first).&lt;/p&gt;
+
+&lt;h3 id=&quot;section-1&quot;&gt;🌶🌶🌶&lt;/h3&gt;
+
+&lt;p&gt;The operations between boolean values are AND and OR. Create a variable that store the value of True or False and then prints it. Create another value that stores the value of True and False. Print the variable.&lt;/p&gt;
 </content>
  </entry>
  
