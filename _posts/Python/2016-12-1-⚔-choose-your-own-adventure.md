@@ -20,3 +20,7 @@ elif answer == "right" or answer == "r":
 else:
     print ("Things are looking up. Keep walking.")
 ```
+
+What does it do? How does it work? Can you make your own adventure?
+
+To repl!
