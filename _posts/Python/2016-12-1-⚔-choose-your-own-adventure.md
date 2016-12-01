@@ -8,4 +8,4 @@ category: "Python"
 
 ## Take a look at this:
 
-<script src="//repl.it/embed/EcZh/0.js"></script>
+<script src="//repl.it/embed/EcZh/1.js"></script>

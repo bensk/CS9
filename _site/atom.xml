@@ -4,7 +4,7 @@
  <title>CS9</title>
  <link href="http://bsk.education/CS9/atom.xml" rel="self"/>
  <link href="http://bsk.education/CS9/"/>
- <updated>2016-11-30T19:12:35-05:00</updated>
+ <updated>2016-11-30T19:13:57-05:00</updated>
  <id>http://bsk.education/CS9</id>
  <author>
    <name>Ben Samuels-Kalow</name>
@@ -19,7 +19,7 @@
    <id>http://bsk.education/CS9/python/2016/12/01/⚔-choose-your-own-adventure</id>
    <content type="html">&lt;h2 id=&quot;take-a-look-at-this&quot;&gt;Take a look at this:&lt;/h2&gt;
 
-&lt;script src=&quot;//repl.it/embed/EcZh/0.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;//repl.it/embed/EcZh/1.js&quot;&gt;&lt;/script&gt;
 
 </content>
  </entry>
