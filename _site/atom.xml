@@ -4,7 +4,7 @@
  <title>CS9</title>
  <link href="http://bsk.education/CS9/atom.xml" rel="self"/>
  <link href="http://bsk.education/CS9/"/>
- <updated>2016-12-07T07:17:37-05:00</updated>
+ <updated>2016-12-07T07:35:42-05:00</updated>
  <id>http://bsk.education/CS9</id>
  <author>
    <name>Ben Samuels-Kalow</name>
@@ -84,6 +84,9 @@
 &lt;p&gt;…&lt;a href=&quot;https://docs.google.com/document/d/1lvKTEbrfaY8753BnBGYPbkljfyHyway6ZHtbFHB-5nk/edit&quot;&gt;and many more&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&quot;practice-in-repl&quot;&gt;Practice (in repl)&lt;/h2&gt;
+
+&lt;h3 id=&quot;click-here-to-access--python-turtle-practicehttpsreplitclassroominviteblf78rw&quot;&gt;&lt;a href=&quot;https://repl.it/classroom/invite/Blf78Rw&quot;&gt;Click here to access 🐢 Python Turtle Practice&lt;/a&gt;&lt;/h3&gt;
+
 &lt;p&gt;✅  Change turtle name   &lt;br /&gt;
 ✅  Set pen size to 5  &lt;br /&gt;
 ✅   Set turtle speed to 0  &lt;br /&gt;
