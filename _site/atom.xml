@@ -4,7 +4,7 @@
  <title>CS9</title>
  <link href="http://bsk.education/CS9/atom.xml" rel="self"/>
  <link href="http://bsk.education/CS9/"/>
- <updated>2016-12-06T15:10:44-05:00</updated>
+ <updated>2016-12-07T07:17:37-05:00</updated>
  <id>http://bsk.education/CS9</id>
  <author>
    <name>Ben Samuels-Kalow</name>
@@ -36,12 +36,62 @@
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
-&lt;script src=&quot;//repl.it/embed/EiKH/0.js&quot;&gt;&lt;/script&gt;
-
+&lt;iframe src=&quot;https://trinket.io/embed/python/a7174b7ad7?runOption=run&quot; width=&quot;100%&quot; height=&quot;310&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 &lt;!-- Testing embed --&gt;
 
-&lt;h2 id=&quot;section&quot;&gt;🐢&lt;/h2&gt;
+&lt;h2 id=&quot;turtle-python&quot;&gt;🐢 Turtle Python&lt;/h2&gt;
 &lt;p&gt;A module that we are going to use to extend Python, allowing us to make graphics.&lt;/p&gt;
+
+&lt;h3 id=&quot;commands&quot;&gt;Commands&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Commands&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Example:&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;What this does →&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Naming&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;leonardo = turtle.Turtle()&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Names the turtle leonardo&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Change shape&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;leonardo.shape(“turtle”)&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Makes a turtle appear instead of a triangle &lt;small&gt;Available shapes are “arrow”, “turtle”, “circle”, “square”, “triangle”, “classic” &lt;/small&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Movement (pixels)&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;leonardo.forward(75)&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;leonardo.backward(75)&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Moves forward 75 pixels, Moves backwards 75 pixels&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Turning (degrees)&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;leonardo.right(70)&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;leonardo.left(70)&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Turns right 70 degrees, Turns left 70 degrees&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Color (string)&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;leonardo.color(&#39;red&#39;)&lt;/code&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Changes the turtle and drawing color. Click &lt;a href=&quot;http://www.w3schools.com/colors/colors_names.asp&quot;&gt;here&lt;/a&gt; for more colors.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;…&lt;a href=&quot;https://docs.google.com/document/d/1lvKTEbrfaY8753BnBGYPbkljfyHyway6ZHtbFHB-5nk/edit&quot;&gt;and many more&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;practice-in-repl&quot;&gt;Practice (in repl)&lt;/h2&gt;
+&lt;p&gt;✅  Change turtle name   &lt;br /&gt;
+✅  Set pen size to 5  &lt;br /&gt;
+✅   Set turtle speed to 0  &lt;br /&gt;
+✅  Change pen color to a color you like  &lt;br /&gt;
+✅   Give the turtle a shape  &lt;br /&gt;
+✅    Draw a square   &lt;br /&gt;
+✅    Draw a square using a loop  &lt;br /&gt;
+✅    Draw a square using a loop and stamp each corner&lt;/p&gt;
 </content>
  </entry>
  
