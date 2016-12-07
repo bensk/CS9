@@ -1,7 +1,8 @@
 ---
 layout: "post"
 title: "🐢 Lab 1⃣.1⃣...with Python!"
-date: "2016-12-07 14:15"
+date: "2016-12-08 14:15"
+category: 'Python'
 ---
 
 # Geometric Fun Times™
