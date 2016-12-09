@@ -12,9 +12,9 @@ category: "Python"
 import random
 random.randint(0, 3)
 random.randint(0, 3)
-print random.randint(0, 3)
-print random.randint(0, 3)
-print random.randint(0, 3)
+print (random.randint(0, 3))
+print (random.randint(0, 3))
+print (random.randint(0, 3))
 # In comments:
 # What does randint do?
 # What do the values 0 and 3 do?
@@ -82,4 +82,4 @@ def find_odds(input):
 ```
 
 **Exceeding Standards (4)**
-- Redo [Lab 1⃣.1⃣](http://bsk.education/CS9/python/2016/12/08/lab-1-1-with-python/) with functions for each shape. 
+- Redo [Lab 1⃣.1⃣](http://bsk.education/CS9/python/2016/12/08/lab-1-1-with-python/) with functions for each shape.
