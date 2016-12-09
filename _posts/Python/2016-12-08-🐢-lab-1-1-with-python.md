@@ -7,7 +7,7 @@ category: 'Python'
 
 # Geometric Fun Times™
 
-In this lab, you will write a Python programg to draw some simple shapes on the stage.
+In this lab, you will write a Python program to draw some simple shapes on the stage.
 
 ## 1. Drawing a square
 
@@ -16,7 +16,6 @@ Ask the user for the shape they would like:
 ```python
 shape = input("What shape would you like")
 ```
-
 
 
 1.1) Using Turtle, if the user says `square`, the computer should draw a square.
