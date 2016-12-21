@@ -5,7 +5,7 @@ date: "2016-12-22 21:49"
 category: "Python"
 ---
 
-## Section 1 - I'm Thinking of a Number...
+This was [Lab 3⃣.0⃣ Guessing Game](http://bsk.education/CS9/snap/2016/10/13/lab-3-0-guessing-game/) in SNAP
 You will write a Python program to choose a random number between 1 and 10 and then ask the user to guess a number.
 
 
