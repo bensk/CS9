@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "🔁 `while` loops"
+title: "🔁 <code>while</code> loops"
 date: "2016-12-21 20:06"
 category: "python"
 ---
