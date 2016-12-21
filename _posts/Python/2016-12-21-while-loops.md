@@ -48,7 +48,7 @@ while x<5:
 
 ## mean`while`...
 
-Write a program called `countdownV2.py `
+**In 🐍 CS9 Python:**
 
 It takes any number as input, starts counting down and ends with a BOOM! (or similar exclamation.)  
 
