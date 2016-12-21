@@ -1,8 +1,8 @@
 ---
 layout: "post"
 title: "❓Guessing Game"
-date: "2016-12-20 21:49"
-category: "python"
+date: "2016-12-22 21:49"
+category: "Python"
 ---
 
 ## Section 1 - I'm Thinking of a Number...

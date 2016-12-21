@@ -2,7 +2,7 @@
 layout: "post"
 title: "🔁 <code>while</code> loops"
 date: "2016-12-21 20:06"
-category: "python"
+category: "Python"
 ---
 
 ## Do Now
