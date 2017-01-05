@@ -5,6 +5,11 @@ date: "2017-01-05 23:08"
 category: "Python"
 ---
 
+## Learning Targets
+- I can create and modify dictionaries in Python.
+- I can add, remove, and search through lists and dictionaries.
+- `AP` I can explain how lists and other collections can be treated as abstract data types (ADTs) in developing programs.
+
 ## Do Now
 
 In repl:
@@ -83,4 +88,4 @@ user_profile = {
 
 3⃣ Create a function that lets someone look through your profile. When called, it should ask something like "what would you like to know about me?" and they can respond with an aspect like `email` and get back your email. If the key is not in your profile, let them know that they can't have that information.
 
-4⃣ Add a `while` loop 
+4⃣ Add a `while` loop
