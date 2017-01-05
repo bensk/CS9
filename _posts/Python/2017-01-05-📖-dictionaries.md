@@ -88,4 +88,6 @@ user_profile = {
 
 3⃣ Create a function that lets someone look through your profile. When called, it should ask something like "what would you like to know about me?" and they can respond with an aspect like `email` and get back your email. If the key is not in your profile, let them know that they can't have that information.
 
-4⃣ Add a `while` loop
+4⃣ Add a `while` loop to your function that lets someone keep searching until they type "exit."
+
+#️ Remember: I only grade commented code.
