@@ -58,7 +58,7 @@ Dictionaries are great for things like **address books** (pairing a name with a 
 ## Dictionary Lab
 In repl: `Dictionary_Lab`
 
-Create a social network profile for yourself using a dictionary. I've suggested some keys, but you should feel free to add your own.
+1⃣ Create a social network profile for yourself using a dictionary. I've suggested some keys, but you should feel free to add your own.
 
 ```python
 user_profile = {
@@ -79,6 +79,8 @@ user_profile = {
 }
 ```
 
-Test your profile by `print`ing the value for each key.
+2⃣ Test your profile by `print`ing the value for each key.
 
-Create a function that lets someone look through your profile. When called, it should ask something like "what would you like to know about me?" and they can respond with an aspect like `email` and get back your email. If the key is not in your profile, let them know that they can't have that information.
+3⃣ Create a function that lets someone look through your profile. When called, it should ask something like "what would you like to know about me?" and they can respond with an aspect like `email` and get back your email. If the key is not in your profile, let them know that they can't have that information.
+
+4⃣ Add a `while` loop 
