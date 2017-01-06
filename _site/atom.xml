@@ -4,7 +4,7 @@
  <title>CS9</title>
  <link href="http://bsk.education/CS9/atom.xml" rel="self"/>
  <link href="http://bsk.education/CS9/"/>
- <updated>2016-12-07T07:35:42-05:00</updated>
+ <updated>2017-01-05T22:35:35-05:00</updated>
  <id>http://bsk.education/CS9</id>
  <author>
    <name>Ben Samuels-Kalow</name>
@@ -13,26 +13,548 @@
 
  
  <entry>
+   <title>🔍 Word Counter</title>
+   <link href="http://bsk.education/CS9/python/2017/01/05/word-counter/"/>
+   <updated>2017-01-05T23:23:00-05:00</updated>
+   <id>http://bsk.education/CS9/python/2017/01/05/🔍-word-counter</id>
+   <content type="html">&lt;p&gt;Last time, we saw that dictionaries can pair keys of any data type with values of any data type. We paired strings with strings last time, but now we’re going to pair strings with lists.&lt;/p&gt;
+
+&lt;p&gt;Let’s review how we &lt;strong&gt;add&lt;/strong&gt; values to a dictionary.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;list_dictionaries&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+ &lt;span class=&quot;s&quot;&gt;&#39;i&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
+ &lt;span class=&quot;s&quot;&gt;&#39;am&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;list_dictionaries&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;groot&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# update the key &#39;groot&#39; with a list value&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;What if I know what to add the string &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;6&quot;&lt;/code&gt; to the key &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;groot&quot;&lt;/code&gt;? How do we add things to a list? &lt;code class=&quot;highlighter-rouge&quot;&gt;.append()&lt;/code&gt;!&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;list_dictionaries&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;groot&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;six&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Dictionaries are good for storing values of all different, types, but they’re also helpful for &lt;em&gt;finding&lt;/em&gt; and &lt;em&gt;counting&lt;/em&gt; values.&lt;/p&gt;
+
+&lt;p&gt;Consider a dictionary from yesterday:&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;my_dictionary&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;&#39;cat&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&#39;a domestic feline&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;&#39;dog&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&#39;a domestic canine&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;&#39;chair&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&#39;furniture piece for sitting&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;&#39;car&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&#39;automobile&#39;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;How many times does the letter &lt;code class=&quot;highlighter-rouge&quot;&gt;&#39;a&#39;&lt;/code&gt; appear in the entry for &lt;code class=&quot;highlighter-rouge&quot;&gt;&#39;dog&#39;&lt;/code&gt;?&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;print(my_dictionary[&#39;car&#39;].count(&quot;a&quot;))&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Ok, that’s not so impressive. But something people often want coders to do is &lt;strong&gt;analyze&lt;/strong&gt; a bunch of data, and a useful statistic to find is &lt;strong&gt;frequency&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Frequency: the (relative) number of times something occurs in a given sample.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;We can use dictionaries and loops to analyze frequency.&lt;/p&gt;
+
+&lt;script src=&quot;//repl.it/embed/FByv/0.js&quot;&gt;&lt;/script&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;In this lab we will implement a word frequency algorithm. It will tell you how many of each word you had in an essay.&lt;/p&gt;
+
+&lt;p&gt;Make a variable for user input, something like&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;text_input&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Paste your text here&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;In order to turn this text into a list of lower case words we will use the &lt;code class=&quot;highlighter-rouge&quot;&gt;split(&quot;&quot;)&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;replace()&lt;/code&gt;, and &lt;code class=&quot;highlighter-rouge&quot;&gt;lower()&lt;/code&gt; functions.&lt;/p&gt;
+
+&lt;p&gt;For each word in the document, count the number of times it occurs.&lt;/p&gt;
+
+&lt;p&gt;Consider the following phrase: ‘Cats are cool. Baby cats are called kittens. Cats make great pets.’&lt;/p&gt;
+
+&lt;p&gt;The word ‘cats’ appears 3 times. The word ‘are’ appears 2 times.
+The program will first create a dictionary with the words as keys and the number of times they occur as values.&lt;/p&gt;
+
+&lt;p&gt;Then it will prompt the user which word they are curious about. If the word was in the paragraph it will print the number of times it occurred.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>📖 Dictionaries</title>
+   <link href="http://bsk.education/CS9/python/2017/01/05/dictionaries/"/>
+   <updated>2017-01-05T23:08:00-05:00</updated>
+   <id>http://bsk.education/CS9/python/2017/01/05/📖-dictionaries</id>
+   <content type="html">&lt;h2 id=&quot;learning-targets&quot;&gt;Learning Targets&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;I can create and modify dictionaries in Python.&lt;/li&gt;
+  &lt;li&gt;I can add, remove, and search through lists and dictionaries.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;AP&lt;/code&gt; I can explain how lists and other collections can be treated as abstract data types (ADTs) in developing programs.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;do-now&quot;&gt;Do Now&lt;/h2&gt;
+
+&lt;p&gt;In repl:&lt;/p&gt;
+
+&lt;p&gt;Run the following code:&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;my_dictionary&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;&#39;cat&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&#39;a domestic feline&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;&#39;dog&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&#39;a domestic canine&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;&#39;chair&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&#39;furniture piece for sitting&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;&#39;car&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&#39;automobile&#39;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;my_dictionary&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;my_dictionary&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;dog&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;my_dictionary&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;dog&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;cat&#39;&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;my_dictionary&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;monkey&#39;&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;my_dictionary&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;In comments:
+1. What prints?  &lt;br /&gt;
+2. What type&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; is my_dictionary?
+3. Add a line of code that will print the definition of &lt;code class=&quot;highlighter-rouge&quot;&gt;chair&lt;/code&gt;, then run the code again.
+4. What happens if you use my_dictionary[‘kittens’]? What do you think that error means?&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;dictionary-----note-curly-brackets&quot;&gt;✍ &lt;code class=&quot;highlighter-rouge&quot;&gt;Dictionary = { }&lt;/code&gt; ← note curly brackets&lt;/h2&gt;
+
+&lt;p&gt;Like a list, but has a key instead of an index.
+Dictionaries pair the key with a value.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;password&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;SK&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;12345&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The key &amp;amp; value can be any string or number.&lt;/p&gt;
+
+&lt;p&gt;Dictionaries look like:&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;passwords&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;SK&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;12345&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&#39;Lentino&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;67890&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&#39;Perez&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;54321&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;passwords&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;SK&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Dictionaries are great for things like &lt;strong&gt;address books&lt;/strong&gt; (pairing a name with a phone number), &lt;strong&gt;login pages&lt;/strong&gt; (pairing an e-mail address with a username), etc.&lt;/p&gt;
+
+&lt;h2 id=&quot;dictionary-lab&quot;&gt;Dictionary Lab&lt;/h2&gt;
+&lt;p&gt;In repl: &lt;code class=&quot;highlighter-rouge&quot;&gt;Dictionary_Lab&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;1⃣ Create a social network profile for yourself using a dictionary. I’ve suggested some keys, but you should feel free to add your own.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;user_profile&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;c&quot;&gt;# name&lt;/span&gt;
+	&lt;span class=&quot;c&quot;&gt;# school&lt;/span&gt;
+	&lt;span class=&quot;c&quot;&gt;# birthday&lt;/span&gt;
+	&lt;span class=&quot;c&quot;&gt;# email&lt;/span&gt;
+	&lt;span class=&quot;c&quot;&gt;# username(s)&lt;/span&gt;
+	&lt;span class=&quot;c&quot;&gt;# where are you from?&lt;/span&gt;
+	&lt;span class=&quot;c&quot;&gt;# number of siblings&lt;/span&gt;
+	&lt;span class=&quot;c&quot;&gt;# skills&lt;/span&gt;
+	&lt;span class=&quot;c&quot;&gt;# about you&lt;/span&gt;
+	&lt;span class=&quot;c&quot;&gt;# favorite quote&lt;/span&gt;
+	&lt;span class=&quot;c&quot;&gt;# favorite movie&lt;/span&gt;
+	&lt;span class=&quot;c&quot;&gt;# favorite musician&lt;/span&gt;
+	&lt;span class=&quot;c&quot;&gt;# favorite TV show&lt;/span&gt;
+	&lt;span class=&quot;c&quot;&gt;# favorite book&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;2⃣ Test your profile by &lt;code class=&quot;highlighter-rouge&quot;&gt;print&lt;/code&gt;ing the value for each key.&lt;/p&gt;
+
+&lt;p&gt;3⃣ Create a function that lets someone look through your profile. When called, it should ask something like “what would you like to know about me?” and they can respond with an aspect like &lt;code class=&quot;highlighter-rouge&quot;&gt;email&lt;/code&gt; and get back your email. If the key is not in your profile, let them know that they can’t have that information.&lt;/p&gt;
+
+&lt;p&gt;4⃣ Add a &lt;code class=&quot;highlighter-rouge&quot;&gt;while&lt;/code&gt; loop to your function that lets someone keep searching until they type “exit.”&lt;/p&gt;
+
+&lt;p&gt;#️ Remember: I only grade commented code.&lt;/p&gt;
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;Hint: try &lt;code class=&quot;highlighter-rouge&quot;&gt;print(type(my_dictionary))&lt;/code&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>❓Guessing Game</title>
+   <link href="http://bsk.education/CS9/python/2016/12/22/guessing-game/"/>
+   <updated>2016-12-22T21:49:00-05:00</updated>
+   <id>http://bsk.education/CS9/python/2016/12/22/guessing-game</id>
+   <content type="html">&lt;p&gt;This was &lt;a href=&quot;http://bsk.education/CS9/snap/2016/10/13/lab-3-0-guessing-game/&quot;&gt;Lab 3⃣.0⃣ Guessing Game&lt;/a&gt; in SNAP
+You will write a Python program to choose a random number between 1 and 10 and then ask the user to guess a number.&lt;/p&gt;
+
+&lt;h2 id=&quot;hold-up-wait-a-minute&quot;&gt;⚠️ Hold up wait a minute&lt;/h2&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;random&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;random&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;randint&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;random&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;randint&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;random&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;randint&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;random&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;randint&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;random&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;randint&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# In comments:&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# What does randint do?&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# What do the values 0 and 3 do?&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# Try changing those numbers, rerun the program, and write down what changed.&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# What is the difference between random.randint(0,3) and print(random.randint(0,3))?&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;If the user’s guess matches the random number, the user wins. If not, the user loses. In either case, the user should be shown a message indicating whether she won or lost and the secret random number should be revealed.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Write the simple version of the guessing game program described above.&lt;/li&gt;
+  &lt;li&gt;Modify the program to keep asking the user for guesses until the correct number is given. Be sure to give a message after each guess, but only reveal the secret number when the user has guessed correctly and the game is over.&lt;/li&gt;
+  &lt;li&gt;Add code to ask the player their name at the start of the game. Then, personalize the message for an incorrect guess by adding the player’s name. For example, if Sarah is playing the game, then the message should say “Sorry, Sarah, that guess is not correct” instead of just “Sorry” when Sarah guesses incorrectly.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;section-2---game-upgrades&quot;&gt;Section 2 - Game Upgrades&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;Modify your guessing game so that the player can decide the range of possible numbers from which the secret number can be chosen. After asking the player’s name, ask what she wants the highest possible number to be. Then, instead of choosing a random number between 1 and 10, choose a random number between 1 and the number the player requested.&lt;/li&gt;
+  &lt;li&gt;Add code to keep track of how many guesses the player has made. After the player guesses correctly, inform her how many tries it took before the correct number was guessed.&lt;/li&gt;
+  &lt;li&gt;Increase the player’s chances by telling her whether the guessed number is too high or too low instead of just that it is incorrect.&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>🔁 <code>while</code> loops</title>
+   <link href="http://bsk.education/CS9/python/2016/12/21/while-loops/"/>
+   <updated>2016-12-21T20:06:00-05:00</updated>
+   <id>http://bsk.education/CS9/python/2016/12/21/while-loops</id>
+   <content type="html">&lt;h2 id=&quot;do-now&quot;&gt;Do Now&lt;/h2&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# what do you think this will do?&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;del&gt;bad stuff&lt;/del&gt;
+infinite loop! &lt;sup id=&quot;fnref:infinite&quot;&gt;&lt;a href=&quot;#fn:infinite&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;while-loop&quot;&gt;✍ while Loop&lt;/h2&gt;
+&lt;p&gt;Code that repeats while a condition is true.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Let’s take a closer look:&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# sets n to 1. What happens if we don&#39;t?&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+ &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+ &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# Predict!&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;whoa&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# What about this? What gives?&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;meanwhile&quot;&gt;mean&lt;code class=&quot;highlighter-rouge&quot;&gt;while&lt;/code&gt;…&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;In 🐍 CS9 Python:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;It takes any number as input, starts counting down and ends with a BOOM! (or similar exclamation.)&lt;/p&gt;
+
+&lt;p&gt;It should look like this:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Enter number: 10
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+BOOM!
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:infinite&quot;&gt;
+      &lt;p&gt;🎉 Congratulations! You now have the power to crash Google Chrome. &lt;a href=&quot;#fnref:infinite&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>d_vwl</title>
+   <link href="http://bsk.education/CS9/python/2016/12/19/d-vwl/"/>
+   <updated>2016-12-19T23:29:00-05:00</updated>
+   <id>http://bsk.education/CS9/python/2016/12/19/d-vwl</id>
+   <content type="html">&lt;h2 id=&quot;a-quick-note-on-return-vs-print&quot;&gt;A quick note on &lt;code class=&quot;highlighter-rouge&quot;&gt;return&lt;/code&gt; vs. &lt;code class=&quot;highlighter-rouge&quot;&gt;print&lt;/code&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;code&gt;print&lt;/code&gt; just shows the human user a string representing what is going on inside the computer. The computer cannot make use of that printing. &lt;code&gt;return&lt;/code&gt; is how a function gives back a value. This value is often unseen by the human user, but it can be used by the computer in further functions.&lt;/p&gt;
+
+&lt;p&gt;On a more expansive note, &lt;code&gt;print&lt;/code&gt; will not in any way affect a function. It is simply there for the human user’s benefit. It is very useful for understanding how a program works and can be used in debugging to check various values in a program without interrupting the program.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;h2 id=&quot;print-is-for-people-remember-that-slogan-printing-has-no-effect-on-the-ongoing-execution-of-a-program-it-doesnt-assign-a-value-to-a-variable-it-doesnt-return-a-value-from-a-function&quot;&gt;Print is for people. &lt;strong&gt;Remember that slogan.&lt;/strong&gt; Printing has no effect on the ongoing execution of a program. It doesn’t assign a value to a variable. It doesn’t return a value from a function.&lt;/h2&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;remove-the-vowels&quot;&gt;Remove the Vowels&lt;/h2&gt;
+
+&lt;p&gt;&lt;span class=&quot;mega-octicon octicon-file-code&quot;&gt;&lt;/span&gt;
+&lt;kbd&gt;In repl, go to  &lt;mark&gt;de_vowel&lt;/mark&gt;&lt;/kbd&gt;&lt;/p&gt;
+
+&lt;p&gt;Create a function, &lt;code class=&quot;highlighter-rouge&quot;&gt;de_vowel&lt;/code&gt;, which will take a string as input and return a copy of that string with all the vowels removed. Otherwise, the string should be the same.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Create the function contract for &lt;code class=&quot;highlighter-rouge&quot;&gt;de_vowel&lt;/code&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;de_vowel&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;&quot;&quot;&quot;
+A function contract explains what the function does. So, in this case, yours might look like:
+
+#This function takes a string as an input and returns a copy of the string with the vowels removed.
+
+Write `de_vowel` using a for loop
+Provide a few examples that confirm de_vowel works as expected:
+	* What if the string is all vowels (&#39;aeiou&#39;)?
+	* What if there are no vowels (&#39;rdcls&#39;)?
+	* What if some of the vowels are capital and some are lowercase (&#39;lIKe ThIs?&#39;)
+	* What if there is a mix of vowels and non-vowels and spaces (&#39;this is silly&#39;)?
+&quot;&quot;&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;de_vowel&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a_string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+	&lt;span class=&quot;c&quot;&gt;# your code goes here&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;no_vowels&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;de_vowel&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;This sentence has no vowels&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;no_vowels&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# examples go here&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Example output:&lt;/p&gt;
+
+&lt;iframe src=&quot;https://trinket.io/embed/python/5238cab7c2?outputOnly=true&amp;amp;runOption=run&amp;amp;start=result&quot; width=&quot;100%&quot; height=&quot;200&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;h3 id=&quot;review-adding-strings&quot;&gt;Review Adding Strings&lt;/h3&gt;
+
+&lt;p&gt;Now, before your &lt;code class=&quot;highlighter-rouge&quot;&gt;d_vwl&lt;/code&gt;‘d sentence, add a string explaining what’s happening. Like this:&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;Here&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;your&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sentence&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;without&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;vowels&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Hr&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;yr&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sntnc&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;wtht&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;vwls&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;bonus&quot;&gt;Bonus!&lt;/h3&gt;
+
+&lt;p&gt;Use a counter (variable you define outside of a loop to keep track of a value inside a loop) to create a function &lt;code class=&quot;highlighter-rouge&quot;&gt;count_vowels&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;count_vowels&lt;/code&gt; takes in a string and returns an int representing the number of vowels in the string.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>😶 DRY</title>
+   <link href="http://bsk.education/CS9/python/2016/12/15/dry/"/>
+   <updated>2016-12-15T20:29:00-05:00</updated>
+   <id>http://bsk.education/CS9/python/2016/12/15/dry</id>
+   <content type="html">&lt;h2 id=&quot;do-now-in--cs9-python&quot;&gt;Do Now (in 🐍 CS9 Python)&lt;/h2&gt;
+
+&lt;p&gt;Write a function called &lt;code class=&quot;highlighter-rouge&quot;&gt;hello&lt;/code&gt; that takes two &lt;strong&gt;parameters&lt;/strong&gt; a &lt;code class=&quot;highlighter-rouge&quot;&gt;name&lt;/code&gt; and an &lt;code class=&quot;highlighter-rouge&quot;&gt;adjective&lt;/code&gt; and combines them. It should work like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;hello(&#39;SK&#39;,&#39;awesome&#39;)&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Hey SK, you are very awesome.&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;dry-dont-repeat-yourself&quot;&gt;DRY: Don’t Repeat Yourself&lt;/h2&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;dry&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Don&#39;t repeat yourself&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dry&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dry&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&quot;lab-21---geometric-fun-times-v30&quot;&gt;Lab 2.1 - Geometric Fun Times v3.0™&lt;/h1&gt;
+&lt;p&gt;Remember when you drew all those shapes? Didn’t it seem like it should be &lt;em&gt;easier&lt;/em&gt;? Well…&lt;/p&gt;
+
+&lt;p&gt;Do you notice a pattern for the number of sides of a shape, the number of repeat and the turn 🔄 ___ degrees for each shape? Hmm…that’s interesting.&lt;/p&gt;
+
+&lt;p&gt;1⃣ &lt;code class=&quot;highlighter-rouge&quot;&gt;def&lt;/code&gt;ine a function called &lt;code class=&quot;highlighter-rouge&quot;&gt;sides()&lt;/code&gt; that asks for the number of sides and draws a regular polygon with that number of sides. For example, &lt;code class=&quot;highlighter-rouge&quot;&gt;shape(4)&lt;/code&gt; would draw a square, &lt;code class=&quot;highlighter-rouge&quot;&gt;shape(5)&lt;/code&gt; a pentagon, and so on.&lt;/p&gt;
+
+&lt;p&gt;2⃣ &lt;code class=&quot;highlighter-rouge&quot;&gt;def&lt;/code&gt;ine a function called &lt;code class=&quot;highlighter-rouge&quot;&gt;angle()&lt;/code&gt; that asks for a number of &lt;strong&gt;degrees&lt;/strong&gt; to turn. This should work like &lt;code class=&quot;highlighter-rouge&quot;&gt;shape()&lt;/code&gt;, but &lt;strong&gt;every side should be a different color.&lt;/strong&gt; To make something pretty, test &lt;code class=&quot;highlighter-rouge&quot;&gt;angle(121)&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;This is &lt;code class=&quot;highlighter-rouge&quot;&gt;angle(200)&lt;/code&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://bsk.education/CS9/images/spirograph.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>🎉 Functions</title>
+   <link href="http://bsk.education/CS9/python/2016/12/09/functions/"/>
+   <updated>2016-12-09T11:55:00-05:00</updated>
+   <id>http://bsk.education/CS9/python/2016/12/09/🎉-functions</id>
+   <content type="html">&lt;h2 id=&quot;do-now-in-repl&quot;&gt;Do Now (in repl)&lt;/h2&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;random&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;random&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;randint&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;random&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;randint&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;random&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;randint&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;random&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;randint&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;random&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;randint&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# In comments:&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# What does randint do?&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# What do the values 0 and 3 do?&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# Try changing those numbers, rerun the program, and write down what changed.&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# What is the difference between random.randint(0,3) and print(random.randint(0,3))?&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;print&lt;/code&gt; is a built-in function– it takes an input and produces some output when you use it.&lt;/p&gt;
+
+&lt;h2 id=&quot;functions&quot;&gt;Functions&lt;/h2&gt;
+&lt;p&gt;Why use functions?  &lt;br /&gt;
+&lt;strong&gt;→ Reusable Code&lt;/strong&gt;  &lt;br /&gt;
+If you find yourself doing something more than once, make it a function.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;In other words…&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;**Be lazy. **&lt;/li&gt;
+  &lt;li&gt;**Don’t repeat yourself. **&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Make the computer do the work.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;functions-have-to-be-defined-and-then-called&quot;&gt;Functions have to be defined and then called:&lt;/h3&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;name_of_function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;&quot;&quot;&quot;What it do???&quot;&quot;&quot;&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;It prints &quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;this&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;!&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Take a look at this one…&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;power&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;base&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;exponent&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;  
+    &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;base&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;**&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;exponent&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;d to the power of &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;d is &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;d.&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;base&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;exponent&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;power&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;37&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Write a for loop to print only the odd numbers from this list&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;list = [3,4,7,13,54,32,653,256,1,41,65,83,92,31]&lt;/code&gt;`&lt;/p&gt;
+
+&lt;p&gt;Now, iterate and turn your loop into a function called &lt;code class=&quot;highlighter-rouge&quot;&gt;find_odds&lt;/code&gt; that takes an input and prints the odd numbers in ANY list.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;def find_odds(input):&lt;/code&gt;`&lt;/p&gt;
+
+&lt;p&gt;To exceed standards, create functions to ADD all of the odd numbers in a list. Then create a function to add all of the even numbers in a list. Test your functions using a randomly generated list of numbers.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;def odd_sum(input):&lt;/code&gt; &lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;def even_sum(input):&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;make-a-random-list&quot;&gt;Make a random list&lt;/h2&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;random&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;my_randoms&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;random&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sample&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;15&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;checklist&quot;&gt;Checklist&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Meeting Standards (3)&lt;/strong&gt;
+- for loop prints odd numbers from list
+- function &lt;code class=&quot;highlighter-rouge&quot;&gt;find_odds&lt;/code&gt; takes a list, prints odds.
+&lt;code class=&quot;highlighter-rouge&quot;&gt;python
+def find_odds(input):
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Exceeding Standards (4)&lt;/strong&gt;
+- Redo &lt;a href=&quot;http://bsk.education/CS9/python/2016/12/08/lab-1-1-with-python/&quot;&gt;Lab 1⃣.1⃣&lt;/a&gt; with functions for each shape.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>🐢 Lab 1⃣.1⃣...with Python!</title>
+   <link href="http://bsk.education/CS9/python/2016/12/08/lab-1-1-with-python/"/>
+   <updated>2016-12-08T14:15:00-05:00</updated>
+   <id>http://bsk.education/CS9/python/2016/12/08/🐢-lab-1-1-with-python</id>
+   <content type="html">&lt;h1 id=&quot;geometric-fun-times&quot;&gt;Geometric Fun Times™&lt;/h1&gt;
+
+&lt;p&gt;In this lab, you will write a Python program to draw some simple shapes on the stage.&lt;/p&gt;
+
+&lt;h2 id=&quot;drawing-a-square&quot;&gt;1. Drawing a square&lt;/h2&gt;
+
+&lt;p&gt;Ask the user for the shape they would like:&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;shape&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;What shape would you like&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;1.1) Using Turtle, if the user says &lt;code class=&quot;highlighter-rouge&quot;&gt;square&lt;/code&gt;, the computer should draw a square.&lt;/p&gt;
+
+&lt;p&gt;1.2) &lt;strong&gt;Add code&lt;/strong&gt; so that the sprite &lt;strong&gt;says the word “square”&lt;/strong&gt; while it is drawing.&lt;/p&gt;
+
+&lt;p&gt;Comment your code explaining your work.&lt;/p&gt;
+
+&lt;h2 id=&quot;adding-more-shapes&quot;&gt;2. Adding more shapes&lt;/h2&gt;
+
+&lt;p&gt;2.1) Now that you’ve drawn a square, add code to draw the shapes in the following table. The user should be able to say the name of the shape and see it appear.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Square&lt;/li&gt;
+  &lt;li&gt;Equilateral triangle&lt;/li&gt;
+  &lt;li&gt;Diamond&lt;/li&gt;
+  &lt;li&gt;Pentagon&lt;/li&gt;
+  &lt;li&gt;Parallelogram (“leaning rectangle”)&lt;/li&gt;
+  &lt;li&gt;Star&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You will probably want to draw a sketch of each to figure out the angles in each shape.&lt;/p&gt;
+
+&lt;p&gt;2.2) &lt;strong&gt;Add code&lt;/strong&gt; so that as each shape is being drawn, the sprite is saying the name of shape.&lt;/p&gt;
+
+&lt;p&gt;2.3) &lt;strong&gt;Modify&lt;/strong&gt; your code so that each different shape is drawn in a &lt;strong&gt;&lt;em&gt;different&lt;/em&gt;&lt;/strong&gt; color and with a &lt;strong&gt;&lt;em&gt;different&lt;/em&gt;&lt;/strong&gt; line &lt;strong&gt;&lt;em&gt;thick&lt;/em&gt;&lt;/strong&gt;ness. So, for example, if the square is drawn in &lt;strong&gt;blue&lt;/strong&gt; with a line thickness of 3, each other shape must be drawn in a color that is &lt;strong&gt;not&lt;/strong&gt; blue and with a line thickness that is &lt;strong&gt;not&lt;/strong&gt; 3. You may choose whatever colors your want.&lt;/p&gt;
+
+&lt;p&gt;2.4) &lt;strong&gt;Add&lt;/strong&gt; code so that the sprite is hidden when it is not drawing. This is will make sure that the sprite is not obstructing the view of your beautiful artwork!&lt;/p&gt;
+
+&lt;p&gt;3) &lt;strong&gt;Comment your code!&lt;/strong&gt; What did you do? Where did you get stuck? How did you fix it?&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>🐢 Day 1</title>
    <link href="http://bsk.education/CS9/python/2016/12/07/day-1/"/>
    <updated>2016-12-07T15:02:00-05:00</updated>
    <id>http://bsk.education/CS9/python/2016/12/07/🐢-day-1</id>
-   <content type="html">&lt;h2 id=&quot;do-now&quot;&gt;Do Now&lt;/h2&gt;
-&lt;p&gt;What do you this code will do?&lt;/p&gt;
+   <content type="html">&lt;h2 id=&quot;do-now-in-classroom&quot;&gt;Do Now (in Classroom)&lt;/h2&gt;
+&lt;p&gt;What are the smallest and biggest numbers that will print?&lt;/p&gt;
 
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;turtle&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;t&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;turtle&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Turtle&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;shape&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;turtle&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;speed&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;forward&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;90&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;right&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;90&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;forward&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;90&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;right&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;90&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;forward&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;90&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;right&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;90&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;forward&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;90&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;right&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;90&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;42&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+   &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
@@ -1363,7 +1885,7 @@ Why are they useful in programming?&lt;/p&gt;
 &lt;p&gt;What is a “loop”? Where have you seen them before?&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Redundancy&lt;/strong&gt;
-Data that can be left out without loss of function. Repitition.
+Data that can be left out without loss of function. Repetition.
 &lt;strong&gt;Readability&lt;/strong&gt;
 Able to be read. Understandable.&lt;/p&gt;
 

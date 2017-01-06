@@ -26,6 +26,40 @@ What if I know what to add the string `"6"` to the key `"groot"`? How do we add 
 list_dictionaries['groot'].append("six")
 ```
 
+Dictionaries are good for storing values of all different, types, but they're also helpful for *finding* and *counting* values.
+
+Consider a dictionary from yesterday:
+
+```python
+my_dictionary = {
+'cat': 'a domestic feline',
+'dog': 'a domestic canine',
+'chair': 'furniture piece for sitting',
+'car': 'automobile'
+}
+```
+
+How many times does the letter `'a'` appear in the entry for `'dog'`?
+
+`print(my_dictionary['car'].count("a"))`
+
+Ok, that's not so impressive. But something people often want coders to do is **analyze** a bunch of data, and a useful statistic to find is **frequency**.
+
+> Frequency: the (relative) number of times something occurs in a given sample.
+
+We can use dictionaries and loops to analyze frequency.
+
+```python
+sentence = input("Give me a sentence")
+report = {}
+
+for i in sentence:
+	report[i] = sentence.count(i)
+#          ^key         ^ value (counting each i in the sentence)
+print(report)
+```
+
+---
 
 In this lab we will implement a word frequency algorithm. It will tell you how many of each word you had in an essay.
 
