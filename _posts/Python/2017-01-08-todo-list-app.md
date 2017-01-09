@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "✅ Todo List App"
+title: "✅ To-do List App"
 date: "2017-01-08 21:22"
 category: "Python"
 ---
@@ -10,15 +10,14 @@ WITHOUT running the code, predict what is printed by the code below:
 
 ```python
 this_is_a_dictionary = {"cat":12, "dog":6, "elephant":23}
-print this_is_a_dictionary["dog"]
+print(this_is_a_dictionary["dog"])
 ```
 
 ## <span class="mega-octicon octicon-tasklist"></span> Todo List App
 
 We're going to create to-do list app.
 
-<span class="mega-octicon octicon-file-code"></span>
-In PyCharm, create a file called `ToDo`
+### Todos los `To-do` to-dos
 
 | Specification                                                                 |   Points   |
 |:------------------------------------------------------------------------------|:----------:|
