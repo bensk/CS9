@@ -63,14 +63,14 @@ some_dictionary={
     #days of the week
 }
 
-def add(action,day):
+def add():
     # loop this question...
         #append the action to the list value of the day keys
         some_dictionary[day].append(action)
     #until you...
     # I need an option to call choice()
 
-def get(day):
+def get():
     print(some_dictionary[day])
     # I need an option to call choice()
 
