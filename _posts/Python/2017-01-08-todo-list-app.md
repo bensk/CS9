@@ -84,6 +84,7 @@ get("monday")
 ```
 
 ## Groups
+
 | Choice                            | Functions                                                     | Get                                  | Lists                   | Looping                                                           |
 |:----------------------------------|:--------------------------------------------------------------|:-------------------------------------|:------------------------|:------------------------------------------------------------------|
 | Annalis, Crystal, Elizabeth, Eric | Anthony, Brianna, David, Emarie, Jose, Josue, Shakira, Soriel | Alexander, Alyssa, Kathryn, Matthew, | Axel, Jeremiah, Yaritza | Dallana, Devonte, Emily, Evelyn, Katia, Stephanie, Carlos, Nayeli |
