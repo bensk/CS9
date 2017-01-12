@@ -74,7 +74,16 @@ This is _completely backwards_ from how most people think about preparing to tea
 
 ## Planning
 
-| 🎯 Objectives                                                      | 📝 Assessment                                                                                        | 🎉 Activities                  |
+| Date | Deliverable         |
+|:-----|:--------------------|
+| 1/12 | QFT                 |
+| 1/13 | 🎯 Learning Targets |
+| 1/17 | Assessment          |
+| 1/18 | Activity            |
+| 1/19 | Lesson Plan         |
+| 1/23 | 🎓 Teach!           |
+
+| 🎯 Learning Targets                                                | 📝 Assessment                                                                                        | 🎉 Activities                  |
 |:-------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------|:-------------------------------|
 | Most important concepts in coding, what can be learned in an hour? | Coding + documentation/reflection, what makes this class different?, what makes this class the same? | Language (Scratch/SNAP/Python) |
 
