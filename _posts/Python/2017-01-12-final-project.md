@@ -2,7 +2,7 @@
 layout: "post"
 title: "🔚 Final Project"
 date: "2017-01-12 20:31"
-category: "Python"
+category: "Lesson Planning"
 ---
 
 ## ⏳ Hour of Code

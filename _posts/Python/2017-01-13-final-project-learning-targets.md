@@ -1,8 +1,8 @@
 ---
 layout: "post"
-title: "🔚 Final Project 🎯 Learning Targets"
-date: "2017-01-12 10:34"
-category: "Python"
+title: "🎯 Learning Targets"
+date: "2017-01-13 10:34"
+category: "Lesson Planning"
 ---
 
 Our work from yesterday...
