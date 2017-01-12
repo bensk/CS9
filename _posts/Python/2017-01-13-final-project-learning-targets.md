@@ -2,7 +2,7 @@
 layout: "post"
 title: "🎯 Learning Targets"
 date: "2017-01-13 10:34"
-category: "Lesson Planning"
+category: "Final Project - Lesson Planning"
 ---
 
 Our work from yesterday...
