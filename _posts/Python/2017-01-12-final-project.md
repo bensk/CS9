@@ -71,3 +71,13 @@ Some questions I ask myself:
 Now it's time to begin planning what students will actually _do_ in order to meet the objectives you set for them, as measured by your assessments.
 
 This is _completely backwards_ from how most people think about preparing to teach. If I asked you to plan a lesson yesterday, you probably would've started thinking about what _activities_ you wanted your students to do. You might have thought about what projects you liked best from the last 3.5 years...or maybe ones that would make your teachers struggle and feel dumb.
+
+## Planning
+
+| 🎯 Objectives                                                      | 📝 Assessment                                                                                        | 🎉 Activities                  |
+|:-------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------|:-------------------------------|
+| Most important concepts in coding, what can be learned in an hour? | Coding + documentation/reflection, what makes this class different?, what makes this class the same? | Language (Scratch/SNAP/Python) |
+
+**Lesson Plan Template**
+
+<iframe src="https://docs.google.com/document/d/1t4gxzmE9Hc-uyVIJoSw6UVB-yGWH5lPJX7l2gT9ylUU/pub?embedded=true"></iframe>
