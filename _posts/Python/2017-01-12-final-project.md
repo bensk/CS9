@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "Final Project"
+title: "🔚 Final Project"
 date: "2017-01-12 20:31"
 category: "Python"
 ---
