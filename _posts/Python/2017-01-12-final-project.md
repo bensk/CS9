@@ -83,8 +83,19 @@ This is _completely backwards_ from how most people think about preparing to tea
 | 1/19 | Lesson Plan         |
 | 1/23 | 🎓 Teach!           |
 
-| 🎯 Learning Targets                                                | 📝 Assessment                                                                                        | 🎉 Activities                  |
-|:-------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------|:-------------------------------|
-| Most important concepts in coding, what can be learned in an hour? | Coding + documentation/reflection, what makes this class different?, what makes this class the same? | Language (Scratch/SNAP/Python) |
+### 🎯 Learning Targets
+- Most important concepts in coding
+- What can be learned in an hour?
+- What makes this class different?
+- What makes this class the same?
+
+### 📝 Assessment
+- Coding + documentation/reflection
+- What does "getting it" look like?
+
+### 🎉 Activity
+- Language (Scratch/SNAP/Python/etc or unplugged)
+- Timing
+- Groupings
 
 [Lesson Plan Template](https://docs.google.com/a/ms223.org/document/d/1t4gxzmE9Hc-uyVIJoSw6UVB-yGWH5lPJX7l2gT9ylUU/edit?usp=sharing)
