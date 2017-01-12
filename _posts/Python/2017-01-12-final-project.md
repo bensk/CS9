@@ -1,8 +1,8 @@
 ---
 layout: "post"
-title: "🔚 Final Project"
+title: "🔚 of line"
 date: "2017-01-12 20:31"
-category: "Lesson Planning"
+category: "Final Project"
 ---
 
 ## ⏳ Hour of Code
