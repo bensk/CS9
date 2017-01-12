@@ -11,7 +11,11 @@ Every single student in your grade has written code...but many of your teachers 
 
 That's where you come in.
 
-For the rest of this assignment, when I say "student" I mean everyone who isn't in this class.
+You are going to design a lesson to teach the only group of learners in this school that _haven't_ coded: your teachers.
+
+You will have **one hour** to teach them the most essential ideas of coding, using the coding language of your choice– or no language at all. Maybe make some PB&J? I don't know, you're the teacher. I'm going to sit down...
+
+(For the rest of this assignment, when I say "student" I mean everyone who isn't in this class.)
 
 ## 🌈 Understanding by Design
 
@@ -42,7 +46,7 @@ That's a lot. The next step is to determine the **evidence** that tells the teac
 
 I developed 🎯 Learning Targets for this class. Do you remember the [👌 SNAP Learning Target Tracker](https://docs.google.com/spreadsheets/d/1kpCuR0VXGgyvjY0LeWGajOzOSJe31Ynk_cDWsI9pK6A/edit?usp=sharing) or the [🐍 Python Learning Target Tracker](https://docs.google.com/document/d/1L2w9uPk6oqDY4ldzxK9OBJNJnK0DK4SMed49jbna4Uo/edit?usp=sharing)? Those are **assessments**.
 
-### Assessment
+### 📝 Assessment
 
 Assessments are evidence. You're used to seeing them as tests or exit slips, but they're also reflections, rubrics, conversations, code you submit, drawings...whatever shows a teacher you've mastered an idea or a skill.
 
@@ -54,10 +58,16 @@ You will only be teaching for one day (at least for now), so you probably won't 
 
 Some questions I ask myself:
 
-1⃣ How do you know students are learning while I'm teaching? How do I know where they're stuck?
+1⃣ How do I know students are learning while I'm teaching? How do I know where they're stuck?
 
 2⃣ How many students are meeting my standards? How many are exceeding and need an extension?
 
 3⃣ What can I adjust, right now, based on this information?
 
 4⃣ What's next?
+
+### 🎉 Activity
+
+Now it's time to begin planning what students will actually _do_ in order to meet the objectives you set for them, as measured by your assessments.
+
+This is _completely backwards_ from how most people think about preparing to teach. If I asked you to plan a lesson yesterday, you probably would've started thinking about what _activities_ you wanted your students to do. You might have thought about what projects you liked best from the last 3.5 years...or maybe ones that would make your teachers struggle and feel dumb.
