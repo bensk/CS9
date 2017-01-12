@@ -46,4 +46,18 @@ I developed 🎯 Learning Targets for this class. Do you remember the [👌 SNAP
 
 Assessments are evidence. You're used to seeing them as tests or exit slips, but they're also reflections, rubrics, conversations, code you submit, drawings...whatever shows a teacher you've mastered an idea or a skill.
 
-Any good lesson includes **formative** assessment that occurs _while_ people are learning and allows you to see where they're getting confused and need help (or where they are _destroying_ the work and need to pushed hard. (👋 pretty much each of you at some point this semester).
+Any good lesson includes **formative** assessment that occurs _while_ people are learning and allows you to see where they're getting confused and need help (or where they are _destroying_ the work and need to pushed harder (👋 pretty much each of you at some point this semester).
+
+Teachers also use **summative** assessments at the end of a unit, usually comparing students to a baseline or grade standards.
+
+You will only be teaching for one day (at least for now), so you probably won't be giving a test. **BUT** – you still need to think about assessment.
+
+Some questions I ask myself:
+
+1⃣ How do you know students are learning while I'm teaching? How do I know where they're stuck?
+
+2⃣ How many students are meeting my standards? How many are exceeding and need an extension?
+
+3⃣ What can I adjust, right now, based on this information?
+
+4⃣ What's next?
