@@ -78,6 +78,4 @@ This is _completely backwards_ from how most people think about preparing to tea
 |:-------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------|:-------------------------------|
 | Most important concepts in coding, what can be learned in an hour? | Coding + documentation/reflection, what makes this class different?, what makes this class the same? | Language (Scratch/SNAP/Python) |
 
-**Lesson Plan Template**
-
-<iframe src="https://docs.google.com/document/d/1t4gxzmE9Hc-uyVIJoSw6UVB-yGWH5lPJX7l2gT9ylUU/pub?embedded=true"></iframe>
+[Lesson Plan Template](https://docs.google.com/a/ms223.org/document/d/1t4gxzmE9Hc-uyVIJoSw6UVB-yGWH5lPJX7l2gT9ylUU/edit?usp=sharing)
