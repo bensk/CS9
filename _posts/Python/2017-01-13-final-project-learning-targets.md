@@ -41,7 +41,15 @@ Our work from yesterday...
 - What code would you like to teach first ?
 - What are the "basics" of coding?
 
+The next step is to figure out what a student in your class should be able to do once it's over. At the end of class, they should be able to say "I can _____" and you should be able to assess that, yes, they can.
+
 I developed 🎯 Learning Targets for this class. Do you remember the [👌 SNAP Learning Target Tracker](https://docs.google.com/spreadsheets/d/1kpCuR0VXGgyvjY0LeWGajOzOSJe31Ynk_cDWsI9pK6A/edit?usp=sharing) or the [🐍 Python Learning Target Tracker](https://docs.google.com/document/d/1L2w9uPk6oqDY4ldzxK9OBJNJnK0DK4SMed49jbna4Uo/edit?usp=sharing)? Those are **assessments**.
+
+We need to develop 2-3 _short-term_ learning targets for the students.
+
+🎯 I can __________     
+🎯 I can __________     
+🎯 I can __________     
 
 ---
 
