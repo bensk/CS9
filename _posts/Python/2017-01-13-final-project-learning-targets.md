@@ -47,9 +47,9 @@ I developed 🎯 Learning Targets for this class. Do you remember the [👌 SNAP
 
 We need to develop 2-3 _short-term_ learning targets for the students.
 
-🎯 I can __________     
-🎯 I can __________     
-🎯 I can __________     
+🎯 I can...   
+🎯 I can...   
+🎯 I can...      
 
 ---
 
