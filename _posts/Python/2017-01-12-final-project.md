@@ -74,14 +74,14 @@ This is _completely backwards_ from how most people think about preparing to tea
 
 ## Planning
 
-| Date | Deliverable         |
-|:-----|:--------------------|
-| 1/12 | QFT                 |
-| 1/13 | 🎯 Learning Targets |
-| 1/17 | Assessment          |
-| 1/18 | Activity            |
-| 1/19 | Lesson Plan         |
-| 1/23 | 🎓 Teach!           |
+| Date | Deliverable                      |
+|:-----|:---------------------------------|
+| 1/12 | QFT                              |
+| 1/13 | 🎯 Learning Targets & Assessment |
+| 1/17 | Activity Planning                |
+| 1/18 | Activity                         |
+| 1/19 | Lesson Plan                      |
+| 1/23 | 🎓 Teach!                        |
 
 ### 🎯 Learning Targets
 - Most important concepts in coding
