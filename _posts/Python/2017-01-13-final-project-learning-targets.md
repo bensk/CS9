@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "🎯 Learning Targets"
+title: "🎯 Developing Learning Targets"
 date: "2017-01-13 10:34"
 category: "Python"
 ---
