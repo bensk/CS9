@@ -10,7 +10,7 @@ category: "Python"
 - I can understand the meaning of all coding.
 - I can explain the interaction between code and a computer.
 - I can explain block in SNAP.
-- I can explain the meaning of coding .
+- I can explain the meaning of coding.
 
 
 ## Needs Revision
@@ -40,6 +40,14 @@ I can code for a function in _Python_ using what I know about cause and effect o
 - I can explain the idea of coding helping you in life.
 - I can understand the overall idea of coding being a language .
 - I can define an **algorithm** in code .
+
+# Mastering Learning Targets
+
+A human person cannot possibly master ALL of 👆 these in a single class.
+
+A lot of them are similar or related– can we group them into separate lessons, and teach _some_ of them to _some_ of our learners?
+
+Which ones make sense together? Which ones require a learner to have mastered an earlier target before they can attack this one?
 
 
 ## Bonus! Do Now idea (thanks, Jeremiah!)
