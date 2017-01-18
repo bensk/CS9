@@ -31,15 +31,15 @@ category: "Python"
 - I can come up with specific **algorithms**.
 - I can explain what **iteration** is and give examples.
 - I can explain what programming is using basic knowledge of _Scratch_ blocks.
-I can code for a function in _Python_ using what I know about cause and effect or **inputs** and **outputs** .
-- I can make a _sprite_ move across the screen and bounce off edge .
+I can code for a function in _Python_ using what I know about cause and effect or **inputs** and **outputs**.
+- I can make a _sprite_ move across the screen and bounce off edge.
 - I can make a _sprite_ turn around.
 - I can determine how **debugging** errors in Computer Science will help me in life.
 - I can learn from my mistakes to make my work better.
-- I can write a **conditional** statement .
+- I can write a **conditional** statement.
 - I can explain the idea of coding helping you in life.
-- I can understand the overall idea of coding being a language .
-- I can define an **algorithm** in code .
+- I can understand the overall idea of coding being a language.
+- I can define an **algorithm** in code.
 
 # Mastering Learning Targets
 
@@ -48,6 +48,8 @@ A human person cannot possibly master ALL of 👆 these in a single class.
 A lot of them are similar or related– can we group them into separate lessons, and teach _some_ of them to _some_ of our learners?
 
 Which ones make sense together? Which ones require a learner to have mastered an earlier target before they can attack this one?
+
+---
 
 
 ## Bonus! Do Now idea (thanks, Jeremiah!)
