@@ -12,6 +12,9 @@ category: "Python"
 - I can explain block in SNAP.
 - I can explain the meaning of coding.
 
+1⃣ Identify BROAD topics that multiple Learning Targets have in common
+2⃣ Identify the skill that is being taught/assessed: reading, writing, or coding. 
+3⃣ Identify the language(s) that you think would be best for teaching/learning those targets.
 
 ## Needs Revision
 - I can use math in _Python_.
