@@ -4,13 +4,513 @@
  <title>CS9</title>
  <link href="http://bsk.education/CS9/atom.xml" rel="self"/>
  <link href="http://bsk.education/CS9/"/>
- <updated>2017-01-05T22:35:35-05:00</updated>
+ <updated>2017-01-23T10:27:21-05:00</updated>
  <id>http://bsk.education/CS9</id>
  <author>
    <name>Ben Samuels-Kalow</name>
    <email>bsk@ms223.org</email>
  </author>
 
+ 
+ <entry>
+   <title>📋 Lesson Planning</title>
+   <link href="http://bsk.education/CS9/python/2017/01/19/final-project-lesson-planning/"/>
+   <updated>2017-01-19T16:12:00-05:00</updated>
+   <id>http://bsk.education/CS9/python/2017/01/19/final-project-lesson-planning</id>
+   <content type="html">&lt;h2 id=&quot;learning-targets&quot;&gt;Learning Targets&lt;/h2&gt;
+
+&lt;p&gt;✅ 2-3 Learning Targets&lt;/p&gt;
+
+&lt;h2 id=&quot;do-now&quot;&gt;Do Now&lt;/h2&gt;
+
+&lt;p&gt;✅ Doable with pen &amp;amp; paper
+✅ 3-5 minutes to complete and go over
+✅ Leads into lesson&lt;/p&gt;
+
+&lt;h2 id=&quot;standards&quot;&gt;Standards&lt;/h2&gt;
+
+&lt;p&gt;We’ll go over these next week.&lt;/p&gt;
+
+&lt;h2 id=&quot;homework&quot;&gt;Homework&lt;/h2&gt;
+
+&lt;p&gt;Are you going to assign your teachers homework?&lt;/p&gt;
+
+&lt;h2 id=&quot;resources&quot;&gt;Resources&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;What materials do you need? Be &lt;strong&gt;extremely&lt;/strong&gt; specific.&lt;/li&gt;
+  &lt;li&gt;What tools (hardware or software) are you using?&lt;/li&gt;
+  &lt;li&gt;Do you need laptops? How many? Any software installed?&lt;/li&gt;
+  &lt;li&gt;Do students need to create an account to use the tool you’ve chosen?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;mini-lesson&quot;&gt;Mini-Lesson&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Script&lt;/strong&gt; out what you will say&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Who&lt;/strong&gt; will say what?&lt;/li&gt;
+  &lt;li&gt;What does everyone else in the group do while someone is teaching?&lt;/li&gt;
+  &lt;li&gt;What visuals can you use to help your students?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;independentgroup-work&quot;&gt;Independent/Group Work&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;What are students being asked to do?&lt;/li&gt;
+  &lt;li&gt;Worksheet/exercises/questions clearly outlined.&lt;/li&gt;
+  &lt;li&gt;What are the expectations for each student?&lt;/li&gt;
+  &lt;li&gt;Rubric!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;closingassessment&quot;&gt;Closing/Assessment&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;What questions will you ask at the end to see if students mastered the Learning Targets?&lt;/li&gt;
+  &lt;li&gt;What does a bad/good/excellent response look like?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;groupings--data&quot;&gt;Groupings &amp;amp; Data&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;How are you going to group students? Should they all work independently? Should some work together?&lt;/li&gt;
+  &lt;li&gt;Have a &lt;strong&gt;reason&lt;/strong&gt; for why students are working alone or in groups.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>🎯 Revising Learning Targets</title>
+   <link href="http://bsk.education/CS9/python/2017/01/17/final-project-revising-learning-targets/"/>
+   <updated>2017-01-17T10:34:00-05:00</updated>
+   <id>http://bsk.education/CS9/python/2017/01/17/final-project-revising-learning-targets</id>
+   <content type="html">&lt;h2 id=&quot;why-are-these-bad--learning-targets&quot;&gt;Why are these bad 🎯 Learning Targets?&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;I can write code.&lt;/li&gt;
+  &lt;li&gt;I can understand the meaning of all coding.&lt;/li&gt;
+  &lt;li&gt;I can explain the interaction between code and a computer.&lt;/li&gt;
+  &lt;li&gt;I can explain block in SNAP.&lt;/li&gt;
+  &lt;li&gt;I can explain the meaning of coding.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;1⃣ Identify BROAD topics that multiple Learning Targets have in common
+2⃣ Identify the skill that is being taught/assessed: reading, writing, or coding. 
+3⃣ Identify the language(s) that you think would be best for teaching/learning those targets.&lt;/p&gt;
+
+&lt;h2 id=&quot;needs-revision&quot;&gt;Needs Revision&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;I can use math in &lt;em&gt;Python&lt;/em&gt;.&lt;/li&gt;
+  &lt;li&gt;I can write &lt;strong&gt;comments&lt;/strong&gt; in code and explain why we use them.&lt;/li&gt;
+  &lt;li&gt;I can identify the importance of laziness.&lt;/li&gt;
+  &lt;li&gt;I can explain “Efficiency” in Computer Science.&lt;/li&gt;
+  &lt;li&gt;I can make 3 shapes in &lt;em&gt;SNAP&lt;/em&gt;.&lt;/li&gt;
+  &lt;li&gt;I can define what coding is.&lt;/li&gt;
+  &lt;li&gt;I can explain why coding can solve problems.&lt;/li&gt;
+  &lt;li&gt;I can identify different &lt;em&gt;coding languages&lt;/em&gt;.&lt;/li&gt;
+  &lt;li&gt;I can define &lt;code class=&quot;highlighter-rouge&quot;&gt;if&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;else&lt;/code&gt; statements.&lt;/li&gt;
+  &lt;li&gt;I can explain what &lt;strong&gt;conditionals&lt;/strong&gt; are and how they work.&lt;/li&gt;
+  &lt;li&gt;I can build and code a &lt;em&gt;robot&lt;/em&gt;.&lt;/li&gt;
+  &lt;li&gt;I can describe the role of &lt;strong&gt;creativity&lt;/strong&gt; in Computer Science.&lt;/li&gt;
+  &lt;li&gt;I can define &lt;strong&gt;algorithm&lt;/strong&gt; and give examples.&lt;/li&gt;
+  &lt;li&gt;I can explain in &lt;em&gt;writing&lt;/em&gt; the expected outcome of &lt;em&gt;a piece of code&lt;/em&gt;.&lt;/li&gt;
+  &lt;li&gt;I can come up with specific &lt;strong&gt;algorithms&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;I can explain what &lt;strong&gt;iteration&lt;/strong&gt; is and give examples.&lt;/li&gt;
+  &lt;li&gt;I can explain what programming is using basic knowledge of &lt;em&gt;Scratch&lt;/em&gt; blocks.
+I can code for a function in &lt;em&gt;Python&lt;/em&gt; using what I know about cause and effect or &lt;strong&gt;inputs&lt;/strong&gt; and &lt;strong&gt;outputs&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;I can make a &lt;em&gt;sprite&lt;/em&gt; move across the screen and bounce off edge.&lt;/li&gt;
+  &lt;li&gt;I can make a &lt;em&gt;sprite&lt;/em&gt; turn around.&lt;/li&gt;
+  &lt;li&gt;I can determine how &lt;strong&gt;debugging&lt;/strong&gt; errors in Computer Science will help me in life.&lt;/li&gt;
+  &lt;li&gt;I can learn from my mistakes to make my work better.&lt;/li&gt;
+  &lt;li&gt;I can write a &lt;strong&gt;conditional&lt;/strong&gt; statement.&lt;/li&gt;
+  &lt;li&gt;I can explain the idea of coding helping you in life.&lt;/li&gt;
+  &lt;li&gt;I can understand the overall idea of coding being a language.&lt;/li&gt;
+  &lt;li&gt;I can define an &lt;strong&gt;algorithm&lt;/strong&gt; in code.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;mastering-learning-targets&quot;&gt;Mastering Learning Targets&lt;/h1&gt;
+
+&lt;p&gt;A human person cannot possibly master ALL of 👆 these in a single class.&lt;/p&gt;
+
+&lt;p&gt;A lot of them are similar or related– can we group them into separate lessons, and teach &lt;em&gt;some&lt;/em&gt; of them to &lt;em&gt;some&lt;/em&gt; of our learners?&lt;/p&gt;
+
+&lt;p&gt;Which ones make sense together? Which ones require a learner to have mastered an earlier target before they can attack this one?&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;bonus-do-now-idea-thanks-jeremiah&quot;&gt;Bonus! Do Now idea (thanks, Jeremiah!)&lt;/h2&gt;
+&lt;p&gt;In your own words, explain what “coding” is&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>🎯 Developing Learning Targets</title>
+   <link href="http://bsk.education/CS9/python/2017/01/13/final-project-learning-targets/"/>
+   <updated>2017-01-13T10:34:00-05:00</updated>
+   <id>http://bsk.education/CS9/python/2017/01/13/final-project-learning-targets</id>
+   <content type="html">&lt;p&gt;Our work from yesterday…&lt;/p&gt;
+
+&lt;h2 id=&quot;essential-questions&quot;&gt;Essential Questions&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;What is code?&lt;/li&gt;
+  &lt;li&gt;What is programming?&lt;/li&gt;
+  &lt;li&gt;How are programs organized?&lt;/li&gt;
+  &lt;li&gt;How are different type of data used in programming?&lt;/li&gt;
+  &lt;li&gt;How can I solve problems using code?&lt;/li&gt;
+  &lt;li&gt;Why do we need programming?&lt;/li&gt;
+  &lt;li&gt;What is the point of coding?&lt;/li&gt;
+  &lt;li&gt;Is coding another type of language?&lt;/li&gt;
+  &lt;li&gt;How does coding help you in life?&lt;/li&gt;
+  &lt;li&gt;How does code relate to the subject you teach?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;understandings&quot;&gt;Understandings&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Indentation matters, there will always be errors, and you’re never finished.&lt;/li&gt;
+  &lt;li&gt;“Fall down seven times, get up eight.”&lt;/li&gt;
+  &lt;li&gt;Comments help make your code understandable.&lt;/li&gt;
+  &lt;li&gt;Making mistakes it the best thing you can do.&lt;/li&gt;
+  &lt;li&gt;Failing is actually one of the best things because there is always a way to debug what you have programmed.&lt;/li&gt;
+  &lt;li&gt;“It’s okay to be lazy” being lazy doesn’t mean you’re not putting work into what you do it just means you do something complicated in a simple way.&lt;/li&gt;
+  &lt;li&gt;There is always a more simple/ lazy way to write code.&lt;/li&gt;
+  &lt;li&gt;Be specific in everything you do. Be ordered.&lt;/li&gt;
+  &lt;li&gt;Be creative and learn from your errors.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;assessment-questions&quot;&gt;Assessment Questions&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Why do you want to learn about programing/coding?&lt;/li&gt;
+  &lt;li&gt;What does coding mean to you?&lt;/li&gt;
+  &lt;li&gt;How can we be specific when writing code?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;questions-for-us-to-figure-out&quot;&gt;Questions for us to figure out&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;How can you break down coding in the simplest way so someone can understand it?&lt;/li&gt;
+  &lt;li&gt;What should the difficulty be for the very first lesson?&lt;/li&gt;
+  &lt;li&gt;What code would you like to teach first ?&lt;/li&gt;
+  &lt;li&gt;What are the “basics” of coding?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The next step is to figure out what a student in your class should be able to do once it’s over. At the end of class, they should be able to say “I can _____” and you should be able to assess that, yes, they can.&lt;/p&gt;
+
+&lt;p&gt;I developed 🎯 Learning Targets for this class. Do you remember the &lt;a href=&quot;https://docs.google.com/spreadsheets/d/1kpCuR0VXGgyvjY0LeWGajOzOSJe31Ynk_cDWsI9pK6A/edit?usp=sharing&quot;&gt;👌 SNAP Learning Target Tracker&lt;/a&gt; or the &lt;a href=&quot;https://docs.google.com/document/d/1L2w9uPk6oqDY4ldzxK9OBJNJnK0DK4SMed49jbna4Uo/edit?usp=sharing&quot;&gt;🐍 Python Learning Target Tracker&lt;/a&gt;? Those are &lt;strong&gt;assessments&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;We need to develop 2-3 &lt;em&gt;short-term&lt;/em&gt; learning targets for the students.&lt;/p&gt;
+
+&lt;p&gt;🎯 I can… &lt;br /&gt;
+🎯 I can… &lt;br /&gt;
+🎯 I can…&lt;/p&gt;
+
+&lt;p&gt;Review your Learning Targets from this semester. Which ones do you think could apply to the lesson we are planning? What have I missed?&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;assessment&quot;&gt;📝 Assessment&lt;/h3&gt;
+
+&lt;p&gt;Assessments are evidence. You’re used to seeing them as tests or exit slips, but they’re also reflections, rubrics, conversations, code you submit, drawings…whatever shows a teacher you’ve mastered an idea or a skill.&lt;/p&gt;
+
+&lt;p&gt;Any good lesson includes &lt;strong&gt;formative&lt;/strong&gt; assessment that occurs &lt;em&gt;while&lt;/em&gt; people are learning and allows you to see where they’re getting confused and need help (or where they are &lt;em&gt;destroying&lt;/em&gt; the work and need to pushed harder (👋 pretty much each of you at some point this semester).&lt;/p&gt;
+
+&lt;p&gt;Teachers also use &lt;strong&gt;summative&lt;/strong&gt; assessments at the end of a unit, usually comparing students to a baseline or grade standards.&lt;/p&gt;
+
+&lt;p&gt;You will only be teaching for one day (at least for now), so you probably won’t be giving a test. &lt;strong&gt;BUT&lt;/strong&gt; – you still need to think about assessment.&lt;/p&gt;
+
+&lt;p&gt;Some questions I ask myself:&lt;/p&gt;
+
+&lt;p&gt;1⃣ How do I know students are learning while I’m teaching? How do I know where they’re stuck?&lt;/p&gt;
+
+&lt;p&gt;2⃣ How many students are meeting my standards? How many are exceeding and need an extension?&lt;/p&gt;
+
+&lt;p&gt;3⃣ What can I adjust, right now, based on this information?&lt;/p&gt;
+
+&lt;p&gt;4⃣ What’s next?&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>🔚 Final Project</title>
+   <link href="http://bsk.education/CS9/python/2017/01/12/final-project/"/>
+   <updated>2017-01-12T20:31:00-05:00</updated>
+   <id>http://bsk.education/CS9/python/2017/01/12/final-project</id>
+   <content type="html">&lt;h2 id=&quot;hour-of-code&quot;&gt;⏳ Hour of Code&lt;/h2&gt;
+
+&lt;p&gt;Every single student in your grade has written code…but many of your teachers have no idea what code even &lt;em&gt;is&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;That’s where you come in.&lt;/p&gt;
+
+&lt;p&gt;You are going to design a lesson to teach the only group of learners in this school that &lt;em&gt;haven’t&lt;/em&gt; coded: your teachers.&lt;/p&gt;
+
+&lt;p&gt;You will have &lt;strong&gt;one hour&lt;/strong&gt; to teach them the most essential ideas of coding, using the coding language of your choice– or no language at all. Maybe make some PB&amp;amp;J? I don’t know, you’re the teacher. I’m going to sit down…&lt;/p&gt;
+
+&lt;p&gt;(For the rest of this assignment, when I say “student” I mean everyone who isn’t in this class.)&lt;/p&gt;
+
+&lt;h2 id=&quot;understanding-by-design&quot;&gt;🌈 Understanding by Design&lt;/h2&gt;
+
+&lt;p&gt;When we start thinking about planning a lesson, we try to start with the &lt;em&gt;end&lt;/em&gt; &lt;strong&gt;first&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;What should a student leaving your lesson be able to do when you’re done teaching them that day?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;For this semester, these were mine:&lt;/p&gt;
+
+&lt;h3 id=&quot;essential-questions&quot;&gt;🤔 Essential Questions&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;What is a program?&lt;/li&gt;
+  &lt;li&gt;How are programs organized?&lt;/li&gt;
+  &lt;li&gt;How are different types of data used in programming?&lt;/li&gt;
+  &lt;li&gt;How can I solve problems using code?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;enduring-understandings&quot;&gt;💡 Enduring Understandings&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Algorithms are precise sequences of instructions for processes that can be executed by a computer and are implemented using programming languages.&lt;/li&gt;
+  &lt;li&gt;A computer program is a sequence of instructions or steps, written in a language that can be understood by a computer, that will be used by the computer to complete a task or solve a problem&lt;/li&gt;
+  &lt;li&gt;Creativity is essential process for creating programs.&lt;/li&gt;
+  &lt;li&gt;Computing enables us to use our creativity to create programs for creative expression or to solve a problem.&lt;/li&gt;
+  &lt;li&gt;Multiple levels of abstraction are used to write programs&lt;/li&gt;
+  &lt;li&gt;Programs can be developed for creative expression, to satisfy personal curiosity, to create new knowledge, or to solve problems (to help people, organizations, or society).&lt;/li&gt;
+  &lt;li&gt;Programming uses mathematical and logical concepts.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;That’s a lot. The next step is to determine the &lt;strong&gt;evidence&lt;/strong&gt; that tells the teacher whether or not students have mastered the material.&lt;/p&gt;
+
+&lt;p&gt;I developed 🎯 Learning Targets for this class. Do you remember the &lt;a href=&quot;https://docs.google.com/spreadsheets/d/1kpCuR0VXGgyvjY0LeWGajOzOSJe31Ynk_cDWsI9pK6A/edit?usp=sharing&quot;&gt;👌 SNAP Learning Target Tracker&lt;/a&gt; or the &lt;a href=&quot;https://docs.google.com/document/d/1L2w9uPk6oqDY4ldzxK9OBJNJnK0DK4SMed49jbna4Uo/edit?usp=sharing&quot;&gt;🐍 Python Learning Target Tracker&lt;/a&gt;? Those are &lt;strong&gt;assessments&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;assessment&quot;&gt;📝 Assessment&lt;/h3&gt;
+
+&lt;p&gt;Assessments are evidence. You’re used to seeing them as tests or exit slips, but they’re also reflections, rubrics, conversations, code you submit, drawings…whatever shows a teacher you’ve mastered an idea or a skill.&lt;/p&gt;
+
+&lt;p&gt;Any good lesson includes &lt;strong&gt;formative&lt;/strong&gt; assessment that occurs &lt;em&gt;while&lt;/em&gt; people are learning and allows you to see where they’re getting confused and need help (or where they are &lt;em&gt;destroying&lt;/em&gt; the work and need to pushed harder (👋 pretty much each of you at some point this semester).&lt;/p&gt;
+
+&lt;p&gt;Teachers also use &lt;strong&gt;summative&lt;/strong&gt; assessments at the end of a unit, usually comparing students to a baseline or grade standards.&lt;/p&gt;
+
+&lt;p&gt;You will only be teaching for one day (at least for now), so you probably won’t be giving a test. &lt;strong&gt;BUT&lt;/strong&gt; – you still need to think about assessment.&lt;/p&gt;
+
+&lt;p&gt;Some questions I ask myself:&lt;/p&gt;
+
+&lt;p&gt;1⃣ How do I know students are learning while I’m teaching? How do I know where they’re stuck?&lt;/p&gt;
+
+&lt;p&gt;2⃣ How many students are meeting my standards? How many are exceeding and need an extension?&lt;/p&gt;
+
+&lt;p&gt;3⃣ What can I adjust, right now, based on this information?&lt;/p&gt;
+
+&lt;p&gt;4⃣ What’s next?&lt;/p&gt;
+
+&lt;h3 id=&quot;activity&quot;&gt;🎉 Activity&lt;/h3&gt;
+
+&lt;p&gt;Now it’s time to begin planning what students will actually &lt;em&gt;do&lt;/em&gt; in order to meet the objectives you set for them, as measured by your assessments.&lt;/p&gt;
+
+&lt;p&gt;This is &lt;em&gt;completely backwards&lt;/em&gt; from how most people think about preparing to teach. If I asked you to plan a lesson yesterday, you probably would’ve started thinking about what &lt;em&gt;activities&lt;/em&gt; you wanted your students to do. You might have thought about what projects you liked best from the last 3.5 years…or maybe ones that would make your teachers struggle and feel dumb.&lt;/p&gt;
+
+&lt;h2 id=&quot;planning&quot;&gt;Planning&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Date&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Deliverable&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;1/12&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;QFT&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;1/13&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;🎯 Learning Targets &amp;amp; Assessment&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;1/17&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Activity Planning&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;1/18&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Activity&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;1/19&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Lesson Plan&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;1/23&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;🎓 Teach!&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;learning-targets&quot;&gt;🎯 Learning Targets&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Most important concepts in coding&lt;/li&gt;
+  &lt;li&gt;What can be learned in an hour?&lt;/li&gt;
+  &lt;li&gt;What makes this class different?&lt;/li&gt;
+  &lt;li&gt;What makes this class the same?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;assessment-1&quot;&gt;📝 Assessment&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Coding + documentation/reflection&lt;/li&gt;
+  &lt;li&gt;What does “getting it” look like?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;activity-1&quot;&gt;🎉 Activity&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Language (Scratch/SNAP/Python/etc or unplugged)&lt;/li&gt;
+  &lt;li&gt;Timing&lt;/li&gt;
+  &lt;li&gt;Groupings&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://docs.google.com/a/ms223.org/document/d/1t4gxzmE9Hc-uyVIJoSw6UVB-yGWH5lPJX7l2gT9ylUU/edit?usp=sharing&quot;&gt;Lesson Plan Template&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>✅ To-do List App</title>
+   <link href="http://bsk.education/CS9/python/2017/01/08/todo-list-app/"/>
+   <updated>2017-01-08T21:22:00-05:00</updated>
+   <id>http://bsk.education/CS9/python/2017/01/08/todo-list-app</id>
+   <content type="html">&lt;h2 id=&quot;do-now-google-classroom&quot;&gt;Do Now (Google Classroom)&lt;/h2&gt;
+&lt;p&gt;WITHOUT running the code, predict what is printed by the code below:&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;this_is_a_dictionary&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;cat&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;12&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;dog&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;elephant&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;23&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;this_is_a_dictionary&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;dog&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;span-classmega-octicon-octicon-tasklistspan-todo-list-app&quot;&gt;&lt;span class=&quot;mega-octicon octicon-tasklist&quot;&gt;&lt;/span&gt; Todo List App&lt;/h2&gt;
+
+&lt;p&gt;We’re going to create to-do list app.&lt;/p&gt;
+
+&lt;h3 id=&quot;todos-los-to-do-to-dos&quot;&gt;Todos los &lt;code class=&quot;highlighter-rouge&quot;&gt;To-do&lt;/code&gt; to-dos&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Specification&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Points&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Empty dictionary to store information&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Key for each day of the week&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Each key has a list value that stores items&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;User is prompted&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;User can type &lt;code class=&quot;highlighter-rouge&quot;&gt;add&lt;/code&gt; program will ask what day and add it correctly&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;User can type &lt;code class=&quot;highlighter-rouge&quot;&gt;get&lt;/code&gt; and the program will ask for the day and print the values&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Extensions&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;Points&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Use .split() to allow the user to type &lt;code class=&quot;highlighter-rouge&quot;&gt;get Friday&lt;/code&gt; and see the values&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Use .split() to make &lt;code class=&quot;highlighter-rouge&quot;&gt;add Friday watch tv and relax&lt;/code&gt; update the list&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Total&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;_ / 8&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Example Output&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;What would you like to do?
+add
+What day?
+Friday
+What would you like to add to Friday&#39;s to-do list?
+practice clarinet
+What would you like to do?
+get
+What day?
+Friday
+You have to practice clarinet.
+What would you like to do?
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;our-notes&quot;&gt;Our notes&lt;/h2&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# some way to add&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# some way to read&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# some way to KEEP asking until exit&lt;/span&gt;
+
+
+&lt;span class=&quot;n&quot;&gt;some_dictionary&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;&quot;monday&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:[]&lt;/span&gt;
+
+    &lt;span class=&quot;c&quot;&gt;#days of the week&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;():&lt;/span&gt;
+    &lt;span class=&quot;c&quot;&gt;# loop this question...&lt;/span&gt;
+        &lt;span class=&quot;c&quot;&gt;#append the action to the list value of the day keys&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;some_dictionary&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;day&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;action&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;c&quot;&gt;#until you...&lt;/span&gt;
+    &lt;span class=&quot;c&quot;&gt;# I need an option to call choice()&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;():&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;some_dictionary&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;day&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
+    &lt;span class=&quot;c&quot;&gt;# I need an option to call choice()&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;choice&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;():&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;user_choice&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;How can I help you?&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;c&quot;&gt;# if they choose &#39;add&#39; call add()&lt;/span&gt;
+    &lt;span class=&quot;c&quot;&gt;# if they choose &#39;get&#39; call get()&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;something&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;monday&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;monday&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;groups&quot;&gt;Groups&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Choice&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Functions&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Get&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Lists&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Looping&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Annalis, Crystal, Elizabeth, Eric&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Anthony, Brianna, David, Emarie, Jose, Josue, Shakira, Soriel&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Alexander, Alyssa, Kathryn, Matthew,&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Axel, Jeremiah, Yaritza&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Dallana, Devonte, Emily, Evelyn, Katia, Stephanie, Carlos, Nayeli&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</content>
+ </entry>
  
  <entry>
    <title>🔍 Word Counter</title>
@@ -62,7 +562,15 @@
 
 &lt;p&gt;We can use dictionaries and loops to analyze frequency.&lt;/p&gt;
 
-&lt;script src=&quot;//repl.it/embed/FByv/0.js&quot;&gt;&lt;/script&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;sentence&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Give me a sentence&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;report&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sentence&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;report&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sentence&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;count&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;#          ^key         ^ value (counting each i in the sentence)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;report&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;hr /&gt;
 

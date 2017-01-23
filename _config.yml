@@ -8,7 +8,7 @@ permalink:           pretty
 title:               CS9
 tagline:             Advanced CS
 url:                 http://bsk.education/CS9
-paginate:            40
+paginate:            1
 baseurl:             "/CS9"
 
 # Assets

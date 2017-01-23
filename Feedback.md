@@ -1,3 +1,9 @@
+---
+title: Feedback
+layout: page
+hidden: true
+---
+
 ## Good
 Connections to prior units
 A lot of group work, but not mandatory group work
