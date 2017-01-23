@@ -1,7 +1,3 @@
----
-title: Feedback
----
-
 ## Good
 - Connections to prior units
 - A lot of group work, but not mandatory group work
