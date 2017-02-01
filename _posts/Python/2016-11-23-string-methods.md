@@ -37,7 +37,9 @@ print ( It’s a Wonderful Life! )
 print ( “It’s a Wonderful Life!” )
 ```
 <!--hiiiiii  -->
+
 ## String Methods
+
 Built-in actions you can use on string data.
 
 For example:
